@@ -1,0 +1,6060 @@
+ ----------
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ ----------
+ ----------
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ ----------
+ ----------
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ ----------
+ ----------
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ ----------
+ ----------
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           1 ->           0
+ bbbb
+ cccc
+ dddd
+ eeee
+ aaaa           2 ->           2
+ bbbb
+ cccc
+ dddd
+ eeee
+ ----------

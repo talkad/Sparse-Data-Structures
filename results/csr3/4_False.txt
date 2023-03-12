@@ -1,0 +1,35 @@
+ -------
+   9.99999978E-03
+       10000       10000          20
+ Result intensive_algorithm   26005376.250000000     
+ func time   17.760733041912317     
+ Result intensive_algorithm_neighbors   129974817.25000000     
+ func time   61.570490092970431     
+ -------
+  0.100000001    
+       10000       10000          20
+ Result intensive_algorithm   35006300.250000000     
+ func time   17.997165053151548     
+ Result intensive_algorithm_neighbors   174961706.25000000     
+ func time   62.653856861405075     
+ -------
+  0.300000012    
+       10000       10000          20
+ Result intensive_algorithm   55003413.250000000     
+ func time   18.532349023036659     
+ Result intensive_algorithm_neighbors   274907255.25000000     
+ func time   64.588629507459700     
+ -------
+  0.500000000    
+       10000       10000          20
+ Result intensive_algorithm   75011751.250000000     
+ func time   19.108850078657269     
+ Result intensive_algorithm_neighbors   374909063.25000000     
+ func time   65.867814561352134     
+ -------
+   1.00000000    
+       10000       10000          20
+ Result intensive_algorithm   125025001.25000000     
+ func time   19.040232842788100     
+ Result intensive_algorithm_neighbors   624875006.25000000     
+ func time   65.275717207230628     
