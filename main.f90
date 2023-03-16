@@ -1,5 +1,5 @@
 PROGRAM MAIN  
-    integer :: num_materials
+    integer :: num_materials =5
     real :: nz_ratio
     character(len=32) :: arg
     integer, dimension(:), allocatable :: arr, temp
@@ -23,6 +23,7 @@ PROGRAM MAIN
 
     ! print*, num_materials, nz_ratio
 
+    print*, int(num_materials*1.5)
 
     
 END PROGRAM MAIN

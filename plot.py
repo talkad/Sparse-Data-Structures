@@ -1,23 +1,61 @@
 import matplotlib.pyplot as plt
+import json
+import pandas as pd
 
 
-plt.title('mat of lists')
+data = {}
 
-plt.plot([0.01, 1],[60, 60], label='naive mat3d')
-
-# linked list
-plt.plot([0.01, 0.1, 0.3, 0.5, 1],[17.17, 17.28, 17.55, 17.8, 17.71], label='2 materials')
-plt.plot([0.01, 0.1, 0.3, 0.5, 1],[17.19, 17.48, 18.11, 18.65, 19.7], label='4 materials')
-plt.plot([0.01, 0.1, 0.3, 0.5, 1],[17.34, 17.87, 19.21, 20.44, 26.58], label='8 materials')
-plt.plot([0.01, 0.1, 0.3, 0.5, 1],[17.3, 18.65, 21.23, 27.73, 37.1], label='16 materials')
-
-plt.plot([0.01, 0.1, 0.3, 0.5, 1],[35, 36, 38.42, 42.23, 40.54], label='2 materials')
-plt.plot([0.01, 0.1, 0.3, 0.5, 1],[35.86, 36.65, 40.14, 43.31, 46.29], label='4 materials')
-plt.plot([0.01, 0.1, 0.3, 0.5, 1],[35.36, 37.83, 43.63, 49.27, 55], label='8 materials')
-plt.plot([0.01, 0.1, 0.3, 0.5, 1],[35.46, 39.95, 50.22, 59, 76.91], label='16 materials')
+result_dir = '/home/talkad/Desktop/data_structures/results'
+data_structures = ['mat3d', 'linked_list', 'dynamic_array', 'csr2', 'csr3']
+ratios = [0.01,0.1,0.3,0.5,1]
+num_mats = [2,4,8]
 
 
-plt.legend()
-plt.xlabel('NZ ratio')
-plt.xlabel('time (sec)')
-plt.show()
+# for struct in data_structures:
+#     for mats in num_mats:
+
+#         with open(f'{result_dir}/{struct}/{mats}_False.txt') as f:
+#             log = f.readlines()
+
+#             for line, ratio in zip([3,10,17,24,31],ratios):
+#                 data[f'{struct}_{mats}_{ratio}'] = float(log[line-1].split()[-1])
+
+# print(data)
+        
+
+# with open('intensive.json', 'w') as f:
+#     json.dump(data, f, indent=2, separators=(',', ': '))
+
+
+
+algorithms = ['intensive', 'intensive_mats', 'intensive_neighbors']
+
+for algorithm in algorithms:
+    with open(f'{algorithm}.json', 'r') as f:
+        algo = json.load(f)
+    
+    for mats in num_mats:
+        
+        ys = {}
+        for data in data_structures:
+            ys[data] = []
+
+            for ratio in ratios:
+                ys[data].append(algo[f'{data}_{mats}_{ratio}'])
+
+        # plot
+        plt.clf()
+        for label, y in ys.items():
+            plt.title(f'{algorithm} with {mats} materials')
+            plt.xlabel('ratio')
+            plt.ylabel('execution time (sec)')
+            plt.plot(ratios, y, label=label)
+            plt.legend()
+            plt.savefig(f'plots/{algorithm}_{mats}.jpeg')
+
+    
+
+
+
+
+            
