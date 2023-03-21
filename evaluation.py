@@ -18,7 +18,7 @@ def execute_script(save_dir, script, num_mats, nz_ratio, is_valgrind=False):
 save_dir = 'results'
 local_dir = '/home/talkad/Desktop/data_structures'
 base_dir = '/home/talkad/Desktop/data_structures/sparse_data_struct'
-implementations = ['dynamic_array'] #['csr3', 'dynamic_array']# ['mat3d', 'csr2']    # ['linked_list', 'mat3d', 'dynamic_array', 
+implementations = ['linked_list', 'mat3d','dynamic_array', 'dynamic_array_exist', 'csr3', 'csr2'] #['csr3', 'dynamic_array']# ['mat3d', 'csr2']    # ['linked_list', 'mat3d', 'dynamic_array', 
 
 num_materials = [2,4,8] # [2,4,8,16]
 nz_ratios = [0.01, 0.1, 0.3, 0.5, 1]

@@ -1,35 +1,35 @@
    9.99999978E-03
  Result intensive_algorithm   6502682.0000000000     
- func time   6.6104268039925955     
+ func time   6.6059353159507737     
  Result intensive_algorithm   6502682.0000000000     
- func time   7.4546966459893156     
+ func time   7.4399767169961706     
  Result intensive_algorithm_neighbors   32487439.250000000     
- func time   23.700585319020320     
+ func time   23.206347580999136     
   0.100000001    
  Result intensive_algorithm   8753646.7500000000     
- func time   6.6099725019885227     
+ func time   6.6029944199835882     
  Result intensive_algorithm   8753646.7500000000     
- func time   7.4702593440015335     
+ func time   7.4244833539705724     
  Result intensive_algorithm_neighbors   43733027.000000000     
- func time   23.235451985994587     
+ func time   23.211464432999492     
   0.300000012    
  Result intensive_algorithm   13755975.750000000     
- func time   6.6442824999976438     
+ func time   7.0241766819963232     
  Result intensive_algorithm   13755975.750000000     
- func time   7.5445586569840088     
+ func time   7.9404623579466715     
  Result intensive_algorithm_neighbors   68724459.000000000     
- func time   23.301359048025915     
+ func time   23.558016879949719     
   0.500000000    
  Result intensive_algorithm   18759151.500000000     
- func time   6.6285526340070646     
+ func time   6.6486032060347497     
  Result intensive_algorithm   18759151.500000000     
- func time   7.4989629019983113     
+ func time   7.4847256910288706     
  Result intensive_algorithm_neighbors   93720516.750000000     
- func time   23.277251464984147     
+ func time   23.266886922996491     
    1.00000000    
  Result intensive_algorithm   31262495.500000000     
- func time   6.6267779629852157     
+ func time   6.6211287359474227     
  Result intensive_algorithm   31262495.500000000     
- func time   7.4251813209848478     
+ func time   7.3835157899884507     
  Result intensive_algorithm_neighbors   156187488.75000000     
- func time   23.239815374981845     
+ func time   23.217151643009856     

@@ -14,7 +14,7 @@ module algorithm_module
         integer :: i,j,m
         matrix = 0.0
 
-        print*, mat
+        ! print*, mat
         
         do j=0, ny
             do i=0, nx
@@ -112,7 +112,7 @@ module algorithm_module
         integer :: i, j , m
         real(8) :: temp_sum = 0
 
-        print*, ny, ny, num_materials
+        ! print*, ny, ny, num_materials
 
         do j = 0, ny
             do i = 0, nx
