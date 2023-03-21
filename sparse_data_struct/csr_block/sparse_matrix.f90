@@ -71,12 +71,13 @@ module sparse_matrix_module
 
     end subroutine
 
-    function sparse_constructor(matrix, indxs)
+    function sparse_constructor(matrix, indxs, block_size)
         implicit none
         type(coo_matrix_t), pointer :: sparse_constructor
         real(8), dimension(:,:,:), intent(inout), allocatable :: matrix
         integer, dimension(:,:,:), allocatable, target, intent(inout) :: indxs
-        integer :: i, j, m, idx
+        integer, intent(in) :: block_size
+        integer :: i, j, m, idx, ii, jj
         logical :: start_col = .False.
         integer :: mapping_length, nx, ny, materials
         real(8), parameter :: EPSILON = 0.00001
@@ -94,18 +95,29 @@ module sparse_matrix_module
         sparse_constructor%idx_map(:,:,:) = -1
         idx = 0 
 
-        do j = 0, ny
-            do i = 0, nx
-                do m = 0, materials
-                    if (matrix(m, i, j) > EPSILON) then
-                        ! print*, j,i,m
+        ! print*, ny, nx, block_size
 
-                        sparse_constructor%idx_map(m, i, j) = idx
-                        call sparse_constructor%append_real(sparse_constructor%values, matrix(m, i, j), idx)
+        do j = 0, ny, block_size
+            do i = 0, nx, block_size
 
-                        idx = idx + 1
-                    end if
+                do jj=j, min(j+block_size-1, ny)
+                    do ii=i, min(i+block_size-1, nx)
+
+                        do m = 0, materials
+                            if (matrix(m, ii, jj) > EPSILON) then
+                                ! print*, jj,ii,m
+
+                                sparse_constructor%idx_map(m, ii, jj) = idx
+                                call sparse_constructor%append_real(sparse_constructor%values, matrix(m, ii, jj), idx)
+
+                                idx = idx + 1
+                            end if
+                        end do
+
+                    end do
                 end do
+
+
             end do
         end do
 
