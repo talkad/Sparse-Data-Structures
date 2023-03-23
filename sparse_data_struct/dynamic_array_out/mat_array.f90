@@ -4,6 +4,7 @@ module mat_array_module
 
     type :: mat_array_t 
         type(dynamic_array_t), dimension(:,:), allocatable :: mat
+        integer, dimension(:,:,:), allocatable :: idx_map
 
         contains
 
@@ -26,31 +27,30 @@ module mat_array_module
         integer, dimension(:,:,:), allocatable, target, intent(inout) :: idx_map
         integer :: i, j, m, nx, ny, materials
         integer :: idx
-        
-        idx = 0
 
         materials = size(matrix, dim=1)-1
         nx = size(matrix, dim=2)-1
         ny = size(matrix, dim=3)-1
 
-        ! print*, ny, nx, materials
-
         allocate(mat_array_constructor)
         allocate(mat_array_constructor%mat(0:nx,0:ny))
+        mat_array_constructor%idx_map => idx_map
         idx_map(:,:,:) = -1
 
         do j = 0, ny
             do i = 0, nx
+
+                idx = 0
                 mat_array_constructor%mat(i,j) = dynamic_array_constructor()
 
                 do m=0, materials
                     if (matrix(m,i,j) /= 0) then 
                         idx_map(m,i,j) = idx
-                        call append_real(mat_array_constructor%mat(i,j)%values, matrix(m,i,j), idx)
+                        call mat_array_constructor%mat(i,j)%append_real(matrix(m,i,j))
                         idx = idx+1
                     end if
                 end do
-                idx = 0
+
             end do
         end do
 
@@ -62,7 +62,7 @@ module mat_array_module
         integer, intent(in) :: i, j, material_type
         real(8) :: val
 
-        ! irrelevant
+        call mat_array_constructor%mat(i,j)%append_real(val)
     end subroutine
 
 

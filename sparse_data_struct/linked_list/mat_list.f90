@@ -5,9 +5,6 @@ module mat_list_module
     type, extends(data_abstract_t) :: mat_list_t
         private 
         type(linked_list_t), dimension(:,:), allocatable :: mat
-        integer :: curr_i, curr_j
-
-        type(link_t), pointer :: curr, up, down, left, right
 
         contains
 
@@ -30,15 +27,6 @@ module mat_list_module
 
         allocate(mat_list_constructor)
         allocate(mat_list_constructor%mat(0:nx,0:ny))
-
-        mat_list_constructor%curr_i = -1
-        mat_list_constructor%curr_j = -1
-
-        mat_list_constructor%curr => null()
-        mat_list_constructor%up => null()
-        mat_list_constructor%down => null()
-        mat_list_constructor%left => null()
-        mat_list_constructor%right => null()
 
         do j = 0, ny
             do i = 0, nx
@@ -68,26 +56,7 @@ module mat_list_module
         integer, intent(in) :: i, j, material_type
         real(8) :: get_item
 
-        ! print*, 'cond1'
-        get_item = 0.0
-
-        if (i /= this%curr_i .or. j /= this%curr_j) then
-            this%curr_i = i
-            this%curr_j = j
-
-            this%curr => this%mat(i, j)%head
-        end if
-
-        ! print*, 'cond2'
-        if (associated(this%curr)) then
-            ! print*, 'hey', associated(this%curr)
-            if  (this%curr%material_type == material_type) then
-            ! print*, 'b'
-            get_item = this%curr%val
-            this%curr => this%curr%next
-            ! print*, 'c'
-            end if
-        end if
+        get_item = this%mat(i,j)%get(material_type)
     end function get_item
 
 
@@ -102,52 +71,17 @@ module mat_list_module
         nx = size(this%mat, dim=1) - 1
         ny = size(this%mat, dim=2) - 1
 
-        curr_val=0.0
-        upper_val=0.0
-        lower_val=0.0
-        left_val=0.0
-        right_val=0.0
+        curr_val= 0d0
+        upper_val=0d0
+        lower_val=0d0
+        left_val= 0d0
+        right_val=0d0
 
-        if (i /= this%curr_i .or. j /= this%curr_j) then
-            this%curr_i = i
-            this%curr_j = j
-
-            this%up => null()
-            this%down => null()
-            this%left => null()
-            this%right => null()
-
-            this%curr => this%mat(i, j)%head
-            if (i > 0) this%up => this%mat(i - 1, j)%head
-            if (i < ny) this%down => this%mat(i + 1, j)%head
-            if (j > 0) this%left => this%mat(i, j - 1)%head
-            if (j < nx) this%right => this%mat(i, j + 1)%head
-        end if
-
-        if (associated(this%curr) .and. this%curr%material_type == material_type) then
-            curr_val = this%curr%val
-            this%curr => this%curr%next
-        end if
-
-        if (associated(this%up) .and. this%up%material_type == material_type) then
-            upper_val = this%up%val
-            this%up => this%up%next
-        end if
-
-        if (associated(this%down) .and. this%down%material_type == material_type) then
-            lower_val = this%down%val
-            this%down => this%down%next
-        end if
-
-        if (associated(this%left) .and. this%left%material_type == material_type) then
-            left_val = this%left%val
-            this%left => this%left%next
-        end if
-
-        if (associated(this%right) .and. this%right%material_type == material_type) then
-            right_val = this%right%val
-            this%right => this%right%next
-        end if
+        curr_val= this%mat(i,j)%get(material_type)
+        if (i-1 >= 0) upper_val=this%mat(i-1,j)%get(material_type)
+        if (i+1 <= nx) lower_val=this%mat(i+1,j)%get(material_type)
+        if (j-1 >= 0) left_val= this%mat(i,j-1)%get(material_type)
+        if (j+1 <= ny) right_val=this%mat(i,j+1)%get(material_type)
 
     end subroutine
 

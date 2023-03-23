@@ -1,66 +1,52 @@
 import os
 import subprocess
 from itertools import product
+from multiprocessing import Process, Manager
 
-
-# def execute_script(save_dir, script, num_mats, nz_ratio, is_valgrind=False):
-#     execute = [script, str(num_mats), str(nz_ratio)]
-
-#     if is_valgrind:
-#         execute = ['valgrind'] + execute + [os.path.join(save_dir,f'--log-file={num_mats}_{is_valgrind}.out')]
-#         p=subprocess.Popen(execute)   
-#     else:
-#         with open(os.path.join(save_dir, f'{num_mats}_{is_valgrind}.txt'), 'a+') as f:
-#             p=subprocess.Popen(execute, stdout=f)
-#     print(execute)
-#     p.communicate()
-
-# save_dir = 'results'
-# local_dir = '/home/talkad/Desktop/data_structures'
-# base_dir = '/home/talkad/Desktop/data_structures/sparse_data_struct'
-# implementations = ['linked_list', 'mat3d','dynamic_array', 'dynamic_array_exist', 'csr3', 'csr2'] #['csr3', 'dynamic_array']# ['mat3d', 'csr2']    # ['linked_list', 'mat3d', 'dynamic_array', 
-
-# num_materials = [2,4,8] # [2,4,8,16]
-# nz_ratios = [0.01, 0.1, 0.3, 0.5, 1]
-
-# for implementation in implementations:
-
-#     os.chdir(local_dir)
-#     imp_dir = os.path.join(save_dir, implementation)
-#     os.makedirs(imp_dir, exist_ok = True)
-#     os.chdir(os.path.join(base_dir,implementation))
-
-#     for num_mats, nz_ratio, is_valgrind in product(num_materials, nz_ratios, [False]):
-#         # print(num_mats, nz_ratio, is_valgrind)
-#         execute_script(os.path.join(local_dir, imp_dir), './exe',num_mats, nz_ratio, is_valgrind)
-
-
-def execute_script(save_dir, script, num_mats, nz_ratio, block_size, is_valgrind=False):
-    execute = [script, str(num_mats), str(nz_ratio), str(block_size)]
-
-    if is_valgrind:
-        execute = ['valgrind'] + execute + [os.path.join(save_dir,f'--log-file={num_mats}_{is_valgrind}.out')]
-        p=subprocess.Popen(execute)   
-    else:
-        with open(os.path.join(save_dir, f'{num_mats}_{is_valgrind}.txt'), 'a+') as f:
-            p=subprocess.Popen(execute, stdout=f)
-    print(execute)
-    p.communicate()
 
 save_dir = 'results'
 local_dir = '/home/talkad/Desktop/data_structures'
 base_dir = '/home/talkad/Desktop/data_structures/sparse_data_struct'
 
-num_materials = [2,4,8] # [2,4,8,16]
-nz_ratios = [0.01, 0.1, 0.3, 0.5, 1]
 
-for block_size in [4,8,16,64]:
+class Execute:
+    def __init__(self):
+        # data struct parameters
+        self.optimazation = 2 
+        self.num_materials = [2,4,8]
+        self.nz_ratios = [0.01, 0.1, 0.3, 0.5, 1]
+        self.structs = ['mat3d', 'linked_list','dynamic_array', 'dynamic_array_exist', 'csr3', 'csr2']
 
-    os.chdir(local_dir)
-    imp_dir = os.path.join(save_dir, f'./csr_block_{block_size}')
-    os.makedirs(imp_dir, exist_ok = True)
-    os.chdir(os.path.join(base_dir, './csr_block'))
 
-    for num_mats, nz_ratio, is_valgrind in product(num_materials, nz_ratios, [False]):
-        # print(num_mats, nz_ratio, is_valgrind)
-        execute_script(os.path.join(local_dir, imp_dir), './exe',num_mats, nz_ratio, block_size, is_valgrind)
+    def execute_params(self, struct):
+        os.chdir(local_dir)
+        imp_dir = os.path.join(save_dir, struct)
+        os.makedirs(imp_dir, exist_ok = True)
+        os.chdir(os.path.join(base_dir,struct))
+
+        # compile
+        execute = ['./script', self.optimazation]
+        p=subprocess.Popen(execute, stdout=f)
+        p.communicate()
+
+        # execute
+        for num_mats, nz_ratio in product(self.num_materials, self.nz_ratios):
+            execute = ['./exe', str(num_mats), str(nz_ratio)]
+
+            with open(os.path.join(save_dir, f'{num_mats}.txt'), 'a+') as f:
+                p=subprocess.Popen(execute, stdout=f)
+                p.communicate()
+
+
+    def execute_struct_script(self, struct):
+        manager = Manager()
+        return_dict = manager.dict()
+        t = Process(target=self.execute_params, args=(struct), daemon=True)
+
+        t.start()
+
+
+    def execute(self):
+        for struct in self.structs:
+            self.execute_struct_script(struct)
+
