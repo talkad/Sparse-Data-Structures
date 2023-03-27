@@ -14,6 +14,8 @@ module mat_list_module
             procedure :: get_item => get_item
             procedure :: add_item => add_item
             procedure :: get_neighbors => get_neighbors
+            
+            procedure :: update_struct => update_struct
 
     end type
 
@@ -68,7 +70,6 @@ module mat_list_module
         integer, intent(in) :: i, j, material_type
         real(8) :: get_item
 
-        ! print*, 'cond1'
         get_item = 0.0
 
         if (i /= this%curr_i .or. j /= this%curr_j) then
@@ -78,18 +79,30 @@ module mat_list_module
             this%curr => this%mat(i, j)%head
         end if
 
-        ! print*, 'cond2'
         if (associated(this%curr)) then
-            ! print*, 'hey', associated(this%curr)
             if  (this%curr%material_type == material_type) then
-            ! print*, 'b'
             get_item = this%curr%val
             this%curr => this%curr%next
-            ! print*, 'c'
             end if
         end if
     end function get_item
 
+
+    subroutine update_struct(this, ms, is, js, vals)
+        class(mat_list_t) :: this
+        integer, dimension(:), allocatable, intent(in) :: is, js, ms
+        real(8), dimension(:), allocatable, intent(in) :: vals
+        integer :: idx
+
+        do idx=1, size(is)
+            if ms(idx) == 0 then
+                ! pass
+            else
+                
+            end if
+        end do
+
+    end subroutine
 
     subroutine get_neighbors(this, material_type, i, j, curr_val, upper_val, lower_val, left_val, right_val)
         implicit none

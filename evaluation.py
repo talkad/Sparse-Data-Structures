@@ -59,7 +59,7 @@ for block_size in [4,8,16,64]:
     os.chdir(local_dir)
     imp_dir = os.path.join(save_dir, f'./csr_block_{block_size}')
     os.makedirs(imp_dir, exist_ok = True)
-    os.chdir(os.path.join(base_dir, './csr_block'))
+    os.chdir(os.path.join(base_dir, './csr_block_inline'))
 
     for num_mats, nz_ratio, is_valgrind in product(num_materials, nz_ratios, [False]):
         # print(num_mats, nz_ratio, is_valgrind)

@@ -7,6 +7,7 @@ module mat3d_module
             procedure :: get_item => get_item
             procedure :: get_neighbors => get_neighbors
             procedure :: add_item => add_item
+            procedure :: update_struct => update_struct
 
     end type
     
@@ -38,6 +39,18 @@ module mat3d_module
         real(8) :: val
 
         this%matrix(material_type, i, j) = val
+    end subroutine
+
+    subroutine update_struct(this, ms, is, js, vals)
+        class(mat3d_t) :: this
+        integer, dimension(:), allocatable, intent(in) :: is, js, ms
+        real(8), dimension(:), allocatable, intent(in) :: vals
+
+        integer :: idx
+
+        do idx=1, size(is)
+            this%matrix(ms(idx), is(idx), js(idx)) = vals(idx)
+        end do
     end subroutine
 
     subroutine get_neighbors(this, material_type, i, j, curr_val, upper_val, lower_val, left_val, right_val)
