@@ -31,15 +31,6 @@ module sparse_matrix_module
     end subroutine
 
 
-    ! function get_item(this, material_type, i, j)
-    !     implicit none
-    !     class(coo_matrix_t) :: this
-    !     integer, intent(in) :: i, j, material_type
-    !     real(8) :: get_item
-        
-    !     get_item = this%values(this%idx_map(material_type, i, j))
-    ! end function get_item
-
     function get_item(this, material_type, i, j)
         implicit none
         class(coo_matrix_t) :: this
@@ -90,14 +81,10 @@ module sparse_matrix_module
         do j = 0, ny
             do i = 0, nx
                 do m = 0, materials
-                ! print*, j, i , m
                     if (matrix(m, i, j) > EPSILON) then
-                        ! print*, idx, ':', j,i,m, matrix(m, i, j)
-                                ! print*, m, i, j, idx
 
                         sparse_constructor%idx_map(m, i, j) = idx
                         call sparse_constructor%append_real(sparse_constructor%values, matrix(m, i, j), idx)
-                                ! print*, 'b'
 
                         idx = idx + 1
                     end if
@@ -105,11 +92,6 @@ module sparse_matrix_module
             end do
         end do
 
-        ! print*, matrix
-        ! print*, '------------'
-        ! print*, sparse_constructor%values
-        ! print*, '------------'
-        ! print*, sparse_constructor%idx_map
     end function
 
     ! helper function - append val to array if it is not full, otherwise enlarge the array and append
