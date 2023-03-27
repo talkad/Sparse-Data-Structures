@@ -46,14 +46,7 @@ class Execute:
         t.start()
 
 
-<<<<<<< HEAD
-    os.chdir(local_dir)
-    imp_dir = os.path.join(save_dir, f'./csr_block_{block_size}')
-    os.makedirs(imp_dir, exist_ok = True)
-    os.chdir(os.path.join(base_dir, './csr_block_inline'))
-=======
     def execute(self):
         for struct in self.structs:
             self.execute_struct_script(struct)
->>>>>>> opt
 
