@@ -38,7 +38,9 @@ module sparse_matrix_module
         real(8), dimension(:), allocatable, intent(in) :: vals
         integer :: m, i, j, mater, nx, ny, insertion_idx, idx
         real(8), dimension(:), allocatable :: old_values
+        logical :: used_cell
 
+        used_cell = .False.
         materials = size(matrix, dim=1)-1
         nx = size(matrix, dim=2)-1
         ny = size(matrix, dim=3)-1
@@ -58,6 +60,7 @@ module sparse_matrix_module
                         this%idx_map(m,i,j) = insertion_idx
                         insertion_idx = insertion_idx + 1
                         idx = idx + 1
+                        used_cell = .True.
                     else if (this%idx_map(m,i,j) > -1) then
                         call this%append_real(this%values, old_values(this%idx_map(m,i,j)), insertion_idx)
                         this%idx_map(m,i,j) = insertion_idx
@@ -65,6 +68,17 @@ module sparse_matrix_module
                     end if 
                     
                 end do 
+                
+                ! add padding only to an updated cell (i,j) 
+                if (used_cell) then
+                    call this%append_real(this%values, vals(idx), insertion_idx)
+                    this%idx_map(m,i,j) = insertion_idx
+                    call this%append_real(this%values, vals(idx), insertion_idx+1)
+                    this%idx_map(m,i,j) = insertion_idx+1
+                    insertion_idx = insertion_idx + 2
+                    idx = idx + 2
+                    used_cell = .False.
+                end if
             end do
         end do
         

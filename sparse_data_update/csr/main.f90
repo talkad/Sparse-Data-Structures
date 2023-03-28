@@ -14,6 +14,9 @@ program main
     real :: nz_ratio
     character(len=32) :: arg
 
+    integer, dimension(:), allocatable :: ms, is, js
+    real(8), dimension(:), allocatable :: vals
+
     call get_command_argument(1,arg)
     read(arg,*)  num_mats
 
@@ -39,13 +42,21 @@ program main
     call intensive_algorithm(data_struct, nx, ny, num_materials)
     print*, 'func time', omp_get_wtime() - time
 
-    time = omp_get_wtime()
-    call intensive_algorithm_mat(data_struct, nx, ny, num_materials)
-    print*, 'func time', omp_get_wtime() - time
+    ! time = omp_get_wtime()
+    ! call intensive_algorithm_mat(data_struct, nx, ny, num_materials)
+    ! print*, 'func time', omp_get_wtime() - time
 
+    ! time = omp_get_wtime()
+    ! call intensive_algorithm_neighbors(data_struct, nx, ny, num_materials)
+    ! print*, 'func time', omp_get_wtime() - time
+
+    call advection(nx, ny, num_materials, ms, is, js, vals)
+    time = omp_get_wtime()
+    call data_struct%update_struct(ms, is, js, vals)
+    print*, 'update time', omp_get_wtime() - time
 
     time = omp_get_wtime()
-    call intensive_algorithm_neighbors(data_struct, nx, ny, num_materials)
+    call intensive_algorithm(data_struct, nx, ny, num_materials)
     print*, 'func time', omp_get_wtime() - time
 
     deallocate(p)

@@ -68,12 +68,12 @@ module mat_list_module
         real(8), dimension(:), allocatable, intent(in) :: vals
         integer :: idx
 
-        do idx=1, size(is)
-            if (vals(idx) == 0) then
-                call this%mat(is(idx), js(idx))%remove_mat(ms(idx))
-            else
+        do idx=0, size(is)-1
+            ! if (vals(idx) == 0) then
+            !     call this%mat(is(idx), js(idx))%remove_mat(ms(idx))
+            ! else
                 call this%mat(is(idx), js(idx))%update_mat(ms(idx), vals(idx))
-            end if
+            ! end if
         end do
 
     end subroutine

@@ -6,11 +6,8 @@ module data_abstract_module
         procedure(add), public, deferred :: add_item
         procedure(get), public, deferred :: get_item
         procedure(get_neighborhood), public, deferred :: get_neighbors
-
-<<<<<<< HEAD
         procedure(update_data), public, deferred :: update_struct
-=======
->>>>>>> opt
+
     end type
 
     abstract interface

@@ -145,4 +145,43 @@ module algorithm_module
         print*, 'Result intensive_algorithm', temp_sum
     end subroutine
 
+
+    subroutine advection(nx, ny, num_materials, ms, is, js, vals)
+        ! update 30% of the grid
+        integer, intent(in) :: nx,ny,num_materials
+        integer, dimension(:), allocatable, intent(inout) :: ms, is, js
+        real(8), dimension(:), allocatable, intent(inout) :: vals
+        integer :: new_size
+        integer :: i, j , m, idx
+
+        new_size = 0.3*nx*ny*num_materials
+
+        allocate(ms(0:new_size-1))
+        allocate(is(0:new_size-1))
+        allocate(js(0:new_size-1))
+        allocate(vals(0:new_size-1))
+
+        ms = 0
+        js = 0
+        js = 0
+        vals = 1d0
+
+        do j=0, ny
+            do i=0, nx
+                do m=0, num_materials
+
+                    if (idx < new_link .and. rand(0) <= 0.3) then
+                        ms(idx) = m
+                        is(idx) = i
+                        js(idx) = j
+                        idx = idx + 1
+                    end if 
+
+                end do
+            end do
+        end do
+
+        ! print*, 'Result intensive_algorithm', temp_sum
+    end subroutine
+
 end module

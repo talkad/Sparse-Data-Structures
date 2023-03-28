@@ -48,7 +48,7 @@ module mat3d_module
 
         integer :: idx
 
-        do idx=1, size(is)
+        do idx=0, size(is) - 1
             this%matrix(ms(idx), is(idx), js(idx)) = vals(idx)
         end do
     end subroutine

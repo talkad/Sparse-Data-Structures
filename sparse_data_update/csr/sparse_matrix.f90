@@ -36,14 +36,16 @@ module sparse_matrix_module
         class(coo_matrix_t) :: this
         integer, dimension(:), allocatable, intent(in) :: is, js, ms
         real(8), dimension(:), allocatable, intent(in) :: vals
-        integer :: m, i, j, mater, nx, ny, insertion_idx, idx
+        integer :: m, i, j, materials, nx, ny, insertion_idx, idx, num_vals
         real(8), dimension(:), allocatable :: old_values
 
-        materials = size(matrix, dim=1)-1
-        nx = size(matrix, dim=2)-1
-        ny = size(matrix, dim=3)-1
+        materials = size(this%idx_map, dim=1)-1
+        nx = size(this%idx_map, dim=2)-1
+        ny = size(this%idx_map, dim=3)-1
+        num_vals = size(is)
 
-        idx = 1
+
+        idx = 0
         insertion_idx = 0
 
         allocate(old_values(0:size(this%values)-1))
@@ -53,7 +55,7 @@ module sparse_matrix_module
             do i=0, nx
                 do m=0, materials
 
-                    if (ms(idx)=m .and. is(idx)==i .and. js(idx)=j) then
+                    if (idx < num_vals .and. ms(idx)==m .and. is(idx)==i .and. js(idx)==j) then
                         call this%append_real(this%values, vals(idx), insertion_idx)
                         this%idx_map(m,i,j) = insertion_idx
                         insertion_idx = insertion_idx + 1
@@ -129,7 +131,6 @@ module sparse_matrix_module
         ny = size(matrix, dim=3)-1
 
         allocate(sparse_constructor)
-        ! allocate(sparse_constructor%idx_map(0:materials,0:nx,0:ny))
         sparse_constructor%idx_map => indxs
         allocate(sparse_constructor%values(0:2047))
 
@@ -140,7 +141,6 @@ module sparse_matrix_module
             do i = 0, nx
                 do m = 0, materials
                     if (matrix(m, i, j) > EPSILON) then
-                        ! print*, j,i,m
 
                         sparse_constructor%idx_map(m, i, j) = idx
                         call sparse_constructor%append_real(sparse_constructor%values, matrix(m, i, j), idx)
@@ -168,7 +168,7 @@ module sparse_matrix_module
 
         if (prev_size <= idx) then
             new_size = prev_size*2 - 1
-                        ! print*, prev_size, new_size
+            ! print*, prev_size, new_size
 
             allocate(temp(0:new_size))            ! enlarge array size by factor of 2
             temp(0:new_size) = 0d0

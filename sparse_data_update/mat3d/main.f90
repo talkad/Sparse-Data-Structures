@@ -14,6 +14,10 @@ program main
     real(8), dimension(:,:,:), allocatable :: p
     real*8 :: time
 
+    integer, dimension(:), allocatable :: ms, is, js
+    real(8), dimension(:), allocatable :: vals
+
+
     call get_command_argument(1,arg)
     read(arg,*)  num_mats
 
@@ -44,25 +48,26 @@ program main
     call intensive_algorithm(data_struct, nx, ny, num_materials)
     print*, 'func time', omp_get_wtime() - time
 
-    time = omp_get_wtime()
-    call intensive_algorithm_mat(data_struct, nx, ny, num_materials)
-    print*, 'func time', omp_get_wtime() - time
+    ! time = omp_get_wtime()
+    ! call intensive_algorithm_mat(data_struct, nx, ny, num_materials)
+    ! print*, 'func time', omp_get_wtime() - time
+
+    ! time = omp_get_wtime()
+    ! call intensive_algorithm_neighbors(data_struct, nx, ny, num_materials)
+    ! print*, 'func time', omp_get_wtime() - time
+
+
+
+    call advection(nx, ny, num_materials, ms, is, js, vals)
 
     time = omp_get_wtime()
-    call intensive_algorithm_neighbors(data_struct, nx, ny, num_materials)
+    call data_struct%update_struct(ms, is, js, vals)
+    print*, 'update time', omp_get_wtime() - time
+
+    time = omp_get_wtime()
+    call intensive_algorithm(data_struct, nx, ny, num_materials)
     print*, 'func time', omp_get_wtime() - time
 
     deallocate(p)
 
 end program
-
-
-! nx * ny * num_materials * sizeof(cell)
-! 168336168
-
-! O0
-!  Result intensive_algorithm   3015000.7500000000     
-!  func time   8.9109564620302990 
-
-!  Result intensive_algorithm_neighbors   15068996.250000000     
-!  func time   31.284934532945044 

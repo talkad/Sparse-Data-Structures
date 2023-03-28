@@ -8,6 +8,9 @@ program main
     integer :: nx, ny, num_materials, i,j,m
     real(8), dimension(:,:,:), allocatable :: p
     real*8 :: time
+
+    integer, dimension(:), allocatable :: ms, is, js
+    real(8), dimension(:), allocatable :: vals
     
     integer :: num_mats
     real :: nz_ratio
@@ -43,12 +46,19 @@ program main
     call intensive_algorithm(data_struct, nx, ny, num_materials)
     print*, 'func time', omp_get_wtime() - time
 
-    time = omp_get_wtime()
-    call intensive_algorithm_mat(data_struct, nx, ny, num_materials)
-    print*, 'func time', omp_get_wtime() - time
+    ! time = omp_get_wtime()
+    ! call intensive_algorithm_mat(data_struct, nx, ny, num_materials)
+    ! print*, 'func time', omp_get_wtime() - time
+
+    ! time = omp_get_wtime()
+    ! call intensive_algorithm_neighbors(data_struct, nx, ny, num_materials)
+    ! print*, 'func time', omp_get_wtime() - time
+
+    call advectation(nx, ny, num_materials, ms, is, js, vals)
+    call data_struct%update_struct(ms, is, js, vals)
 
     time = omp_get_wtime()
-    call intensive_algorithm_neighbors(data_struct, nx, ny, num_materials)
+    call intensive_algorithm(data_struct, nx, ny, num_materials)
     print*, 'func time', omp_get_wtime() - time
 
     deallocate(p)
