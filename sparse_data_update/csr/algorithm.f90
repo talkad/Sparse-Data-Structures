@@ -162,6 +162,7 @@ module algorithm_module
         allocate(js(0:new_size-1))
         allocate(vals(0:new_size-1))
 
+        idx = 0
         ms = 0
         js = 0
         js = 0

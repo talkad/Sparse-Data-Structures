@@ -2,28 +2,28 @@ import matplotlib.pyplot as plt
 import json
 import pandas as pd
 import os
+from tqdm import tqdm
 
 
 data = {}
 
 result_dir = '/home/talkad/Desktop/data_structures/results'
-data_structures = ['mat3d', 'csr3', 'csr_block_4', 'csr_block_8', 'csr_block_16', 'csr_block_64', 'csr_block_4_inline', 'csr_block_8_inline', 'csr_block_16_inline', 'csr_block_64_inline']
+data_structures = ['mat3d', 'linked_list', 'csr'] # ['mat3d', 'csr3', 'csr_block_4', 'csr_block_8', 'csr_block_16', 'csr_block_64', 'csr_block_4_inline', 'csr_block_8_inline', 'csr_block_16_inline', 'csr_block_64_inline']
 
-#['mat3d', 'linked_list', 'dynamic_array', 'dynamic_array_exist', 'csr2', 'csr3', 'csr_block_4', 'csr_block_8', 'csr_block_16', 'csr_block_64'] 
-#['mat3d', 'linked_list', 'dynamic_array', 'dynamic_array_exist', 'csr2', 'csr3']
+
 ratios = [0.01,0.1,0.3,0.5,1]
 num_mats = [2,4,8]
-algorithms = ['jim', 'mji', 'stencil']  # ['intensive', 'intensive_mats', 'intensive_neighbors'] 
+algorithms = ['jim', 'mji', 'stencil', 'update']  # ['intensive', 'intensive_mats', 'intensive_neighbors'] 
 
 
-for algo, idx in zip(algorithms, [-1,1,3]):
+for algo, idx in tqdm(zip(algorithms, [-1,1,3,4])):
     for struct in data_structures:
         for mats in num_mats:
 
             with open(f'{result_dir}/{struct}/{mats}.txt') as f:
                 log = f.readlines()
 
-                for line, ratio in zip([3,10,17,24,31],ratios):
+                for line, ratio in zip([3,13,23,33,43],ratios):
                     data[f'{struct}_{mats}_{ratio}'] = float(log[line+idx].split()[-1])
 
     print(data)
@@ -34,7 +34,7 @@ for algo, idx in zip(algorithms, [-1,1,3]):
 
 os.makedirs('plots', exist_ok = True)
 
-for algorithm in algorithms:
+for algorithm in tqdm(algorithms):
     with open(f'{algorithm}.json', 'r') as f:
         algo = json.load(f)
     
