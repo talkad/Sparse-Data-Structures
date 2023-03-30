@@ -30,13 +30,23 @@ class Execute:
         p.communicate()
 
         # execute
-        for num_mats, nz_ratio in product(self.num_materials, self.nz_ratios):
-            execute = ['./exe', str(num_mats), str(nz_ratio)]
-            print(struct, ['./exe', str(num_mats), str(nz_ratio)])
+        if '_block' in struct:
+            for block_size in [8, 16, 32, 64]:
+                for num_mats, nz_ratio in product(self.num_materials, self.nz_ratios):
+                    execute = ['./exe', str(num_mats), str(nz_ratio), str(block_size)]
+                    print(struct, execute)
 
-            with open(os.path.join(local_dir, save_dir, struct, f'{num_mats}.txt'), 'a+') as f:
-                p=subprocess.Popen(execute, stdout=f)
-                p.communicate()
+                    with open(os.path.join(local_dir, save_dir, struct, f'{num_mats}_{block_size}.txt'), 'a+') as f:
+                        p=subprocess.Popen(execute, stdout=f)
+                        p.communicate()
+        else:
+            for num_mats, nz_ratio in product(self.num_materials, self.nz_ratios):
+                execute = ['./exe', str(num_mats), str(nz_ratio)]
+                print(struct, ['./exe', str(num_mats), str(nz_ratio)])
+
+                with open(os.path.join(local_dir, save_dir, struct, f'{num_mats}.txt'), 'a+') as f:
+                    p=subprocess.Popen(execute, stdout=f)
+                    p.communicate()
 
 
     def execute_struct_script(self, struct):
