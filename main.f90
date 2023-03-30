@@ -1,29 +1,22 @@
 PROGRAM MAIN  
-    integer :: num_materials =5
-    real :: nz_ratio
-    character(len=32) :: arg
-    integer, dimension(:), allocatable :: arr, temp
+    use omp_lib
 
-    ! allocate(arr(4))
+    integer :: a, idx
+    real(8) :: time
 
-    ! arr = 1
-    ! print*, arr
+    a = 0
 
-    ! allocate(temp(8))            ! enlarge array size by factor of 2
-    ! temp(1:8) = 5
-    ! temp(1:4) = arr(1:4)   ! copy previous values
-    ! call move_alloc(temp, arr)! temp gets deallocated
+    time = omp_get_wtime()
+    do idx=0, 500000
+        a = a + func(a)
+    end do
 
-    ! print*, arr
-    ! call get_command_argument(1,arg)
-    ! read(arg,*)  num_materials
-
-    ! call get_command_argument(2,arg)
-    ! read(arg,*)  nz_ratio
-
-    ! print*, num_materials, nz_ratio
-
-    print*, int(num_materials*1.5)
-
+    write(*,*), 'result ', a, 'execution time ', omp_get_wtime()-time
     
 END PROGRAM MAIN
+
+function func(a) result(b)
+    integer, intent(in) :: a
+
+    b = a +1
+end function

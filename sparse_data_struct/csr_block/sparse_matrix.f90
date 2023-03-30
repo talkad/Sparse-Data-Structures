@@ -105,7 +105,6 @@ module sparse_matrix_module
 
                         do m = 0, materials
                             if (matrix(m, ii, jj) > EPSILON) then
-                                print*, jj,ii,m
 
                                 sparse_constructor%idx_map(m, ii, jj) = idx
                                 call sparse_constructor%append_real(sparse_constructor%values, matrix(m, ii, jj), idx)

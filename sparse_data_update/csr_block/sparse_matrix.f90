@@ -71,33 +71,24 @@ module sparse_matrix_module
         idx = num_vals
         insertion_idx = size(this%values)-1
 
-        ! incorrect
-        do j=ny, 0, -this%block_size
-            do i=nx, 0, -this%block_size
+        do j=ny, 0
+            do i=nx, 0
+                do m=materials, 0
 
-                do jj=j, max(j+this%block_size-1,0)
-                    do ii=i, max(i+this%block_size-1,0) 
+                    current_idx = this%idx_map(m,i,j)
 
-                        do m=materials, 0
-
-                            current_idx = this%idx_map(m,i,j)
-
-                            if (idx >= 0 .and. ms(idx)==m .and. is(idx)==i .and. js(idx)==j) then
-                                this%values(insertion_idx) = vals(idx)
-                                this%idx_map(m,i,j) = insertion_idx
-                                insertion_idx = insertion_idx - 1
-                                idx = idx - 1
-                            else if (current_idx > -1) then
-                                this%values(insertion_idx) = this%values(current_idx) 
-                                this%idx_map(m,i,j) = insertion_idx
-                                insertion_idx = insertion_idx - 1
-                            end if 
-                    
-                        end do
-
-                    end do
-                end do 
-
+                    if (idx >= 0 .and. ms(idx)==m .and. is(idx)==i .and. js(idx)==j) then
+                        this%values(insertion_idx) = vals(idx)
+                        this%idx_map(m,i,j) = insertion_idx
+                        insertion_idx = insertion_idx - 1
+                        idx = idx - 1
+                    else if (current_idx > -1) then
+                        this%values(insertion_idx) = this%values(current_idx) 
+                        this%idx_map(m,i,j) = insertion_idx
+                        insertion_idx = insertion_idx - 1
+                    end if 
+            
+                end do
             end do
         end do
         
@@ -105,19 +96,27 @@ module sparse_matrix_module
 
         idx = 0
         ! align values to left
-        do j=0, ny
-            do i=0, nx
-                do m=0, materials
+        do j=0, ny, this%block_size
+            do i=0, nx, this%block_size
 
-                    current_idx = this%idx_map(m,i,j) 
+                do jj=j, max(j+this%block_size-1, ny)
+                    do ii=i, max(i+this%block_size-1, nx)
 
-                    if (current_idx > -1) then
-                        this%values(idx) = this%values(current_idx) 
-                        this%idx_map(m,i,j) = idx
-                        idx = idx + 1
-                    end if
+                        do m=0, materials
 
+                            current_idx = this%idx_map(m,ii,jj) 
+
+                            if (current_idx > -1) then
+                                this%values(idx) = this%values(current_idx) 
+                                this%idx_map(m,ii,jj) = idx
+                                idx = idx + 1
+                            end if
+
+                        end do
+
+                    end do
                 end do
+
             end do
         end do
 
