@@ -44,13 +44,13 @@ program main
     call intensive_algorithm(data_struct, nx, ny, num_materials)
     print*, 'func time', omp_get_wtime() - time
 
-    ! time = omp_get_wtime()
-    ! call intensive_algorithm_mat(data_struct, nx, ny, num_materials)
-    ! print*, 'func time', omp_get_wtime() - time
+    time = omp_get_wtime()
+    call intensive_algorithm_mat(data_struct, nx, ny, num_materials)
+    print*, 'func time', omp_get_wtime() - time
 
-    ! time = omp_get_wtime()
-    ! call intensive_algorithm_neighbors(data_struct, nx, ny, num_materials)
-    ! print*, 'func time', omp_get_wtime() - time
+    time = omp_get_wtime()
+    call intensive_algorithm_neighbors(data_struct, nx, ny, num_materials)
+    print*, 'func time', omp_get_wtime() - time
 
     call advection(nx, ny, num_materials, ms, is, js, vals)
     time = omp_get_wtime()
@@ -66,11 +66,3 @@ program main
 
 end program
 
-! 2 * nx * ny * num_materials * nz_ratio (8+ 3*4)
-! 188,743,660
-
-! O0
-!  Result intensive_algorithm   3015000.7500000000
-!  func time   7.0705450670793653
-
-!  func time   79.150903295027092 

@@ -12,34 +12,46 @@ base_dir = '/home/talkad/Desktop/data_structures/sparse_data_update'
 class Execute:
     def __init__(self):
         # data struct parameters
-        self.optimazation = 0
+        self.optimazation = 2
         self.num_materials = [2,4,8]
         self.nz_ratios = [0.01, 0.1, 0.3, 0.5, 1]
         self.structs = ['mat3d', 'linked_list', 'csr', 'csr_block'] # ['mat3d', 'linked_list','dynamic_array', 'dynamic_array_exist', 'csr3', 'csr2']
 
 
     def execute_params(self, struct):
-        os.chdir(local_dir)
-        imp_dir = os.path.join(save_dir, struct)
-        os.makedirs(imp_dir, exist_ok = True)
-        os.chdir(os.path.join(base_dir, struct))
-
-        # compile
-        execute = ['./script.sh', str(self.optimazation)]
-        p=subprocess.Popen(execute)
-        p.communicate()
-
         # execute
         if '_block' in struct:
             for block_size in [8, 16, 32, 64]:
+
+                os.chdir(local_dir)
+                imp_dir = os.path.join(save_dir, f'{struct}_{block_size}')
+                os.makedirs(imp_dir, exist_ok = True)
+                os.chdir(os.path.join(base_dir, struct))
+
+                # compile
+                execute = ['./script.sh', str(self.optimazation)]
+                p=subprocess.Popen(execute)
+                p.communicate()
+
                 for num_mats, nz_ratio in product(self.num_materials, self.nz_ratios):
                     execute = ['./exe', str(num_mats), str(nz_ratio), str(block_size)]
                     print(struct, execute)
 
-                    with open(os.path.join(local_dir, save_dir, struct, f'{num_mats}_{block_size}.txt'), 'a+') as f:
+                    with open(os.path.join(local_dir, save_dir, f'{struct}_{block_size}', f'{num_mats}.txt'), 'a+') as f:
                         p=subprocess.Popen(execute, stdout=f)
                         p.communicate()
         else:
+
+            os.chdir(local_dir)
+            imp_dir = os.path.join(save_dir, struct)
+            os.makedirs(imp_dir, exist_ok = True)
+            os.chdir(os.path.join(base_dir, struct))
+
+            # compile
+            execute = ['./script.sh', str(self.optimazation)]
+            p=subprocess.Popen(execute)
+            p.communicate()
+
             for num_mats, nz_ratio in product(self.num_materials, self.nz_ratios):
                 execute = ['./exe', str(num_mats), str(nz_ratio)]
                 print(struct, ['./exe', str(num_mats), str(nz_ratio)])

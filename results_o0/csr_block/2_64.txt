@@ -1,0 +1,50 @@
+   9.99999978E-03
+ Result intensive_algorithm   1588.2500000000000     
+ func time   5.1222032540244982     
+ Result intensive_algorithm   1588.2500000000000     
+ func time   6.1007332559966017     
+ Result intensive_algorithm_neighbors   7777.5000000000000     
+ func time   18.503662969014840     
+ update time   5.0388431790051982     
+ Result intensive_algorithm   3176.5000000000000     
+ func time   5.1113750709919259     
+  0.100000001    
+ Result intensive_algorithm   1856.7500000000000     
+ func time   5.1233562439738307     
+ Result intensive_algorithm   1856.7500000000000     
+ func time   6.0969267059990671     
+ Result intensive_algorithm_neighbors   9088.0000000000000     
+ func time   18.506239959999220     
+ update time   5.0469410969817545     
+ Result intensive_algorithm   3713.5000000000000     
+ func time   5.1120989629998803     
+  0.300000012    
+ Result intensive_algorithm   2487.7500000000000     
+ func time   5.1231834880018141     
+ Result intensive_algorithm   2487.7500000000000     
+ func time   6.1008562940114643     
+ Result intensive_algorithm_neighbors   12173.000000000000     
+ func time   18.509744812006829     
+ update time   5.1190248130005784     
+ Result intensive_algorithm   4975.5000000000000     
+ func time   5.1115720509842504     
+  0.500000000    
+ Result intensive_algorithm   3120.2500000000000     
+ func time   5.1223813719989266     
+ Result intensive_algorithm   3120.2500000000000     
+ func time   6.1011886369960848     
+ Result intensive_algorithm_neighbors   15263.500000000000     
+ func time   18.504643824999221     
+ update time   5.1389175849908497     
+ Result intensive_algorithm   6240.5000000000000     
+ func time   5.1131909429968800     
+   1.00000000    
+ Result intensive_algorithm   4680.7500000000000     
+ func time   5.1276679110014811     
+ Result intensive_algorithm   4680.7500000000000     
+ func time   6.0960845439985860     
+ Result intensive_algorithm_neighbors   22932.000000000000     
+ func time   18.505104388983455     
+ update time   5.2875553269986995     
+ Result intensive_algorithm   9361.5000000000000     
+ func time   5.1117192429956049     

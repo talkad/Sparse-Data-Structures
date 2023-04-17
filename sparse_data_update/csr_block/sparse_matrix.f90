@@ -62,7 +62,7 @@ module sparse_matrix_module
             temp(0:prev_size-1) = this%values(0:prev_size-1)   ! copy previous values
             call move_alloc(temp, this%values)                 ! temp gets deallocated
         end if
-
+        
         materials = size(this%idx_map, dim=1)-1
         nx = size(this%idx_map, dim=2)-1
         ny = size(this%idx_map, dim=3)-1
@@ -71,6 +71,7 @@ module sparse_matrix_module
         idx = num_vals
         insertion_idx = size(this%values)-1
 
+        
         do j=ny, 0
             do i=nx, 0
                 do m=materials, 0
@@ -93,14 +94,14 @@ module sparse_matrix_module
         end do
         
         this%padding_idx = insertion_idx
-
+        
         idx = 0
         ! align values to left
         do j=0, ny, this%block_size
             do i=0, nx, this%block_size
 
-                do jj=j, max(j+this%block_size-1, ny)
-                    do ii=i, max(i+this%block_size-1, nx)
+                do jj=j, min(j+this%block_size-1, ny)
+                    do ii=i, min(i+this%block_size-1, nx)
 
                         do m=0, materials
 

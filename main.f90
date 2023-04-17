@@ -1,22 +1,26 @@
+
 PROGRAM MAIN  
-    use omp_lib
 
-    integer :: a, idx
-    real(8) :: time
+    integer, dimension(:), allocatable :: array
+    
 
-    a = 0
+    allocate(array(1:3))
+    array(1) = 1
+    array(2) = 2
+    array(3) = 3
 
-    time = omp_get_wtime()
-    do idx=0, 500000
-        a = a + func(a)
-    end do
+    call func(array)
 
-    write(*,*), 'result ', a, 'execution time ', omp_get_wtime()-time
     
 END PROGRAM MAIN
 
-function func(a) result(b)
-    integer, intent(in) :: a
+subroutine func(array)
+    integer, dimension(:), pointer :: array
+    ! integer, dimension(:), pointer :: arr_ptr
 
-    b = a +1
-end function
+    ! arr_ptr => array
+
+    ! print*, array
+
+    ! print*, 'aaa'
+end subroutine
