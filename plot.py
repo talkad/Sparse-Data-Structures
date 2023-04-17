@@ -8,7 +8,7 @@ from tqdm import tqdm
 data = {}
 
 result_dir = '/home/talkad/Desktop/data_structures/results'
-data_structures = ['mat3d', 'linked_list', 'csr', 'csr_block_8', 'csr_block_16', 'csr_block_32', 'csr_block_64'] # ['mat3d', 'csr3', 'csr_block_4', 'csr_block_8', 'csr_block_16', 'csr_block_64', 'csr_block_4_inline', 'csr_block_8_inline', 'csr_block_16_inline', 'csr_block_64_inline']
+data_structures = ['mat4d', 'linked_list', 'csr'] # ['mat3d', 'csr3', 'csr_block_4', 'csr_block_8', 'csr_block_16', 'csr_block_64', 'csr_block_4_inline', 'csr_block_8_inline', 'csr_block_16_inline', 'csr_block_64_inline']
 
 
 ratios = [0.01,0.1,0.3,0.5,1]

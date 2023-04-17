@@ -4,8 +4,8 @@ program main
     ! TAL !
     use sparse_struct_base_module   
     ! use mat4d_module                
-    use mat_list_module             
-    ! use csr_module                  
+    ! use mat_list_module             
+    use csr_module                  
     use demo_algorithms_module
     ! TAL !
     implicit none
@@ -44,8 +44,8 @@ program main
 
     ! write(*,*) '--- main ---'
     ! data_struct => mat4d_constructor(num_mats, nx, ny, nz)
-    data_struct => mat_list_constructor(nx, ny, nz)
-    ! data_struct => sparse_constructor(idx_map)
+    ! data_struct => mat_list_constructor(nx, ny, nz)
+    data_struct => sparse_constructor(idx_map)
 
     ! init data
     call advection(nx, ny, nz, num_mats, ms, is, js, ks, vals, nz_ratio)

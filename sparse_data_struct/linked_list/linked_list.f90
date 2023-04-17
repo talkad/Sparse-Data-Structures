@@ -4,8 +4,8 @@ module linked_list_module
     type, public :: linked_list_t
         private
 
-        type(link_t), pointer, public :: head
-        type(link_t), pointer, public :: tail
+        class(link_t), pointer, public :: head
+        class(link_t), pointer, public :: tail
 
         contains
 
@@ -28,11 +28,12 @@ module linked_list_module
         nullify(list_constructor%tail)
     end function
 
+
     subroutine remove_mat(this, mat)
         implicit none
         class(linked_list_t), intent(inout) :: this
         integer, intent(in) :: mat
-        type(link_t), pointer :: temp_link, link_pointer
+        class(link_t), pointer :: temp_link, link_pointer
 
         temp_link => this%head
         if (.not. associated(temp_link)) then
@@ -42,7 +43,6 @@ module linked_list_module
             deallocate(temp_link)
             return
         end if
-
 
         do while (associated(temp_link))
             if (temp_link%material_type == mat) then
@@ -63,7 +63,7 @@ module linked_list_module
         class(linked_list_t), intent(inout) :: this
         integer, intent(in) :: mat
         real(8), intent(in) :: val
-        type(link_t), pointer :: temp_link, new_link
+        class(link_t), pointer :: temp_link, new_link
 
         temp_link => this%head
 
@@ -86,7 +86,7 @@ module linked_list_module
     subroutine add(this, link)
         implicit none
         class(linked_list_t), intent(inout) :: this
-        type(link_t), pointer :: link, temp_link
+        class(link_t), pointer :: link, temp_link
 
         if (.not. associated(this%head))  then
             this%head => link
@@ -102,7 +102,7 @@ module linked_list_module
         class(linked_list_t), intent(inout) :: this
         integer, intent(in) :: material_type
         real(8):: val
-        type(link_t), pointer :: temp_link
+        class(link_t), pointer :: temp_link
 
         temp_link => this%head
 

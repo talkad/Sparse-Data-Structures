@@ -6,7 +6,7 @@ from multiprocessing import Process, Manager
 
 save_dir = 'results'
 local_dir = '/home/talkad/Desktop/data_structures'
-base_dir = '/home/talkad/Desktop/data_structures/sparse_data_update'
+base_dir = '/home/talkad/Desktop/data_structures/sparse_data_struct'
 
 
 class Execute:
@@ -15,7 +15,7 @@ class Execute:
         self.optimazation = 2
         self.num_materials = [2,4,8]
         self.nz_ratios = [0.01, 0.1, 0.3, 0.5, 1]
-        self.structs = ['mat3d', 'linked_list', 'csr', 'csr_block'] # ['mat3d', 'linked_list','dynamic_array', 'dynamic_array_exist', 'csr3', 'csr2']
+        self.structs = ['mat4d', 'linked_list', 'csr'] # ['mat3d', 'linked_list','dynamic_array', 'dynamic_array_exist', 'csr3', 'csr2', 'csr_block']
 
 
     def execute_params(self, struct):
