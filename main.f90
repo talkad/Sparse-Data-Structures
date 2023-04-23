@@ -1,15 +1,20 @@
 
 PROGRAM MAIN  
 
-    integer, dimension(:), allocatable :: array
+    ! integer, dimension(:), allocatable :: array
     
 
-    allocate(array(1:3))
-    array(1) = 1
-    array(2) = 2
-    array(3) = 3
+    ! allocate(array(1:3))
+    ! array(1) = 1
+    ! array(2) = 2
+    ! array(3) = 3
 
-    call func(array)
+    ! call func(array)
+
+    integer :: a = 5
+    real :: b
+    b = a / 2d0
+    print*, modulo(17,3)
 
     
 END PROGRAM MAIN

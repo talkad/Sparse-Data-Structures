@@ -54,13 +54,14 @@ module demo_algorithms_module
         integer, intent(in) :: nx,ny,nz,num_materials
 
         integer :: i, j, k, m
-        real(8) :: temp
+        real(8) :: temp = 0
         real(8) :: curr, up, down, left, right, bottom, top
 
         do k=1, nz-1
             do j = 1, ny-1
                 do i = 1, nx-1
                     do m = 1, num_materials
+                        what = what + 1
                         curr = pressure_sum%get_item(m, i, j, k)
                         up = pressure_sum%get_item(m, i-1, j, k)
                         down = pressure_sum%get_item(m, i+1, j, k)
@@ -75,7 +76,7 @@ module demo_algorithms_module
             end do
         end do
 
-        print*, 'Result intensive_algorithm_neighbors', temp
+        print*, 'Result intensive_algorithm_neighbors', temp, what
     end subroutine
 
 

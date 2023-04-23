@@ -1,0 +1,50 @@
+   1.0000000000000000E-002
+ Result intensive_algorithm   214375.00000000000     
+ func time  0.76912432489916682     
+ Result intensive_algorithm   214375.00000000000     
+ func time  0.73258104617707431     
+ Result intensive_algorithm_neighbors   1479260.2500000000     
+ func time   4.8882661380339414     
+ update time   1.2415860770270228     
+ Result intensive_algorithm   640980.25000000000     
+ func time  0.78825666802003980     
+  0.10000000000000001     
+ Result intensive_algorithm   2143750.0000000000     
+ func time  0.91244335193186998     
+ Result intensive_algorithm   2143750.0000000000     
+ func time  0.91621213406324387     
+ Result intensive_algorithm_neighbors   14793202.750000000     
+ func time   5.6558778460603207     
+ update time   1.9183315590489656     
+ Result intensive_algorithm   6217263.7500000000     
+ func time   1.0265149839688092     
+  0.29999999999999999     
+ Result intensive_algorithm   6431250.0000000000     
+ func time   1.2011130019091070     
+ Result intensive_algorithm   6431250.0000000000     
+ func time   1.2643317880574614     
+ Result intensive_algorithm_neighbors   44379110.250000000     
+ func time   7.7294315171893686     
+ update time   3.3486516990233213     
+ Result intensive_algorithm   15390449.250000000     
+ func time   1.6736437319777906     
+  0.50000000000000000     
+ Result intensive_algorithm   8817823.2500000000     
+ func time   1.6891063409857452     
+ Result intensive_algorithm   8817823.2500000000     
+ func time   1.8181661930866539     
+ Result intensive_algorithm_neighbors   60770254.500000000     
+ func time   10.046506877057254     
+ update time   3.9066187960561365     
+ Result intensive_algorithm   17688765.750000000     
+ func time   1.5224623770918697     
+   1.0000000000000000     
+ Result intensive_algorithm   13976366.000000000     
+ func time   1.0704508919734508     
+ Result intensive_algorithm   13976366.000000000     
+ func time   1.1265503540635109     
+ Result intensive_algorithm_neighbors   96146594.500000000     
+ func time   7.8189777741208673     
+ update time   3.2169809117913246     
+ Result intensive_algorithm   27952732.000000000     
+ func time   1.0754020581953228     
