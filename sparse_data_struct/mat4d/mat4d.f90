@@ -54,6 +54,7 @@ module mat4d_module
         integer :: idx
 
         do idx=0, size(is)
+            if (vals(idx) == 0d0) return
             this%matrix(ms(idx), is(idx), js(idx), ks(idx)) = vals(idx)
         end do
     end subroutine

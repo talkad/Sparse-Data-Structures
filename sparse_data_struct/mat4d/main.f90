@@ -13,7 +13,7 @@ program main
 
     ! TAL !
 
-    class(sparse_struct_base_t), pointer :: data_struct
+    class(sparse_struct_base_t), pointer :: A, B, C
     integer :: nx=350, ny=350, nz=350, num_mats=16
     integer, dimension(:), allocatable :: ms, is, js, ks
     real(8), dimension(:), allocatable :: vals
@@ -38,36 +38,31 @@ program main
 
 
     ! write(*,*) '--- main ---'
-    data_struct => mat4d_constructor(num_mats, nx, ny, nz)
-    ! data_struct => mat_list_constructor(nx, ny, nz)
-    ! data_struct => sparse_constructor(idx_map)
+    A => mat4d_constructor(num_mats, nx, ny, nz)
+    B => mat4d_constructor(num_mats, nx, ny, nz)
+    C => mat4d_constructor(num_mats, nx, ny, nz)
+
 
     ! init data
     call advection(nx, ny, nz, num_mats, ms, is, js, ks, vals, nz_ratio)
-    call data_struct%update_struct(ms, is, js, ks, vals)
+    call A%update_struct(ms, is, js, ks, vals)
+    call B%update_struct(ms, is, js, ks, vals)
+    call C%update_struct(ms, is, js, ks, vals)
 
 
     print*, nz_ratio
     time = omp_get_wtime()
-    call intensive_algorithm(data_struct, nx, ny, nz, num_mats)
+    call intensive_algorithm(A, B, C, nx, ny, nz, num_mats)
     print*, 'func time', omp_get_wtime() - time
 
-    time = omp_get_wtime()
-    call intensive_algorithm_mat(data_struct, nx, ny, nz, num_mats)
-    print*, 'func time', omp_get_wtime() - time
+    ! time = omp_get_wtime()
+    ! call intensive_algorithm_mat(A, B, C, nx, ny, nz, num_mats)
+    ! print*, 'func time', omp_get_wtime() - time
 
-    time = omp_get_wtime()
-    call intensive_algorithm_neighbors(data_struct, nx, ny, nz, num_mats)
-    print*, 'func time', omp_get_wtime() - time
+    ! time = omp_get_wtime()
+    ! call intensive_algorithm_neighbors(A, C, nx, ny, nz, num_mats)
+    ! print*, 'func time', omp_get_wtime() - time
 
-    call advection(nx, ny, nz, num_mats, ms, is, js, ks, vals, nz_ratio)
-    time = omp_get_wtime()
-    call data_struct%update_struct(ms, is, js, ks, vals)
-    print*, 'update time', omp_get_wtime() - time
-
-    time = omp_get_wtime()
-    call intensive_algorithm(data_struct, nx, ny, nz, num_mats)
-    print*, 'func time', omp_get_wtime() - time
 
 
 end program main
