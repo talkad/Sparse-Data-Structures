@@ -98,26 +98,26 @@ module demo_algorithms_module
         ks = 0
         vals(:) = 1d0
 
-        do k=0, nz
+        do k=0, int(nz*nz_ratio)
             do j=0, ny
                 do i=0, nx
                     do m=1, num_materials
 
                         if (idx > new_size-1) return
 
-                        if (rand(0) <= nz_ratio) then
-                            ms(idx) = m
-                            is(idx) = i
-                            js(idx) = j
-                            ks(idx) = k
-                            ! if(idx==0) then
-                            !     write(*,*) 'aaaaaaaaaaa', ms(idx),is(idx),js(idx),ks(idx), idx
-                            ! end if
+                        ! if (rand(0) <= nz_ratio) then
+                        ms(idx) = m
+                        is(idx) = i
+                        js(idx) = j
+                        ks(idx) = k
+                        ! if(idx==0) then
+                        !     write(*,*) 'aaaaaaaaaaa', ms(idx),is(idx),js(idx),ks(idx), idx
+                        ! end if
 
-                            idx = idx + 1
+                        idx = idx + 1
 
                             
-                        end if 
+                        ! end if 
 
                     end do
                 end do

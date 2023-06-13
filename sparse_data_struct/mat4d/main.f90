@@ -12,10 +12,9 @@ program main
 
 
     ! TAL !
-    integer, dimension(:,:,:,:), allocatable :: idx_map
 
     class(sparse_struct_base_t), pointer :: data_struct
-    integer :: nx=350, ny=350, nz=350, num_mats=20
+    integer :: nx=350, ny=350, nz=350, num_mats=16
     integer, dimension(:), allocatable :: ms, is, js, ks
     real(8), dimension(:), allocatable :: vals
     real(8) :: nz_ratio=0.3, time
@@ -27,10 +26,6 @@ program main
 
     call get_command_argument(2,arg)
     read(arg,*)  nz_ratio
-
-
-    allocate(idx_map(1:num_mats,0:nx,0:ny,0:nz))
-    idx_map(:,:,:,:) = -1
 
     size = nz_ratio*nx*ny*nz*num_mats
 
