@@ -15,6 +15,7 @@ module mat_array_module
             procedure :: get_item => get_item
             procedure :: add_item => add_item
             procedure :: update_struct => update_struct
+            procedure :: total_sum => total
     end type
 
     interface mat_array_t
@@ -32,14 +33,6 @@ module mat_array_module
         allocate(mat_array_constructor)
         allocate(mat_array_constructor%mat(0:nx,0:ny,0:nz))
         mat_array_constructor%num_mats = num_materials
-
-        ! do k=0, nz
-        !     do j=0, ny
-        !         do i=0, nx
-        !             allocate(mat_array_constructor%mat(i,j,k))
-        !         end do
-        !     end do
-        ! end do
         
 
     end function
@@ -72,6 +65,25 @@ module mat_array_module
     end function get_item
 
 
+    function total(this)
+        implicit none
+        class(mat_array_t), intent(inout) :: this
+        integer :: m, i, j, k
+        real(8) :: total
+        total = 0d0
+
+        do k=0, size(this%mat, dim=3)-1
+            do j=0, size(this%mat, dim=2)-1
+                do i=0, size(this%mat, dim=1)-1
+                    do m=1, this%num_mats
+                        total = total + this%get_item(m,j,i,k)
+                    end do
+                end do
+            end do
+        end do
+    end function
+
+
     subroutine update_struct(this, ms, is, js, ks, vals)
         implicit none
         class(mat_array_t), intent(inout) :: this
@@ -80,8 +92,8 @@ module mat_array_module
         integer :: idx
         real(8) :: curr_val
 
-        integer :: debug
-        debug  = 0
+        ! integer :: debug
+        ! debug  = 0
         
         do idx=0, size(is)-1
             curr_val = vals(idx)
@@ -91,10 +103,10 @@ module mat_array_module
             end if
 
             this%mat(is(idx), js(idx), ks(idx))%materials(ms(idx)) = vals(idx)
-            debug = debug + 1
+            ! debug = debug + 1
         end do
 
-        write(*,*) 'a', debug
+        ! write(*,*) 'a', debug
 
     end subroutine
 

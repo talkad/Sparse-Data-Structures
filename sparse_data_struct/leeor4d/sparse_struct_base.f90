@@ -5,10 +5,12 @@ module sparse_struct_base_module
     contains
         procedure(add), public, deferred :: add_item
         procedure(get), public, deferred :: get_item
+        procedure(total_sum), public, deferred :: total_sum
         procedure(update_data), public, deferred :: update_struct
     end type
 
     abstract interface
+
         function get(this, material_type, i, j, k)
             import sparse_struct_base_t
             class(sparse_struct_base_t), intent(inout) :: this
@@ -29,6 +31,12 @@ module sparse_struct_base_module
             integer, dimension(:), allocatable, intent(in) :: is, js, ks, ms
             real(8), dimension(:), allocatable, intent(in) :: vals
         end subroutine
+
+        function total_sum(this)
+            import sparse_struct_base_t
+            class(sparse_struct_base_t), intent(inout) :: this
+            real(8) :: total_sum
+        end function
 
     end interface
 

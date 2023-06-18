@@ -3,8 +3,9 @@ program main
 
     ! TAL !
     use sparse_struct_base_module   
-    ! use mat4d_module                
-    use mat_array_module             
+    ! use mat4d_module      
+    use mat_array_module          
+    ! use mat_list_module             
     ! use csr_module                  
     use demo_algorithms_module
     ! TAL !
@@ -12,10 +13,9 @@ program main
 
 
     ! TAL !
-    integer, dimension(:,:,:,:), allocatable :: idx_map
 
-    class(sparse_struct_base_t), pointer :: data_struct
-    integer :: nx=350, ny=350, nz=350, num_mats=20
+    class(sparse_struct_base_t), pointer :: A, B, C
+    integer :: nx=200, ny=200, nz=200, num_mats=8
     integer, dimension(:), allocatable :: ms, is, js, ks
     real(8), dimension(:), allocatable :: vals
     real(8) :: nz_ratio=0.3, time
@@ -28,10 +28,6 @@ program main
     call get_command_argument(2,arg)
     read(arg,*)  nz_ratio
 
-
-    allocate(idx_map(1:num_mats,0:nx,0:ny,0:nz))
-    idx_map(:,:,:,:) = -1
-
     size = nz_ratio*nx*ny*nz*num_mats
 
     ! allocate
@@ -43,37 +39,38 @@ program main
 
 
     ! write(*,*) '--- main ---'
-    ! data_struct => mat4d_constructor(num_mats, nx, ny, nz)
-    ! data_struct => mat_list_constructor(nx, ny, nz)
-    ! data_struct => sparse_constructor(idx_map)
-    data_struct => mat_array_constructor(num_mats, nx, ny, nz)
+    A => mat_array_constructor(num_mats, nx, ny, nz)
+    B => mat_array_constructor(num_mats, nx, ny, nz)
+    C => mat_array_constructor(num_mats, nx, ny, nz)
+
 
     ! init data
     call advection(nx, ny, nz, num_mats, ms, is, js, ks, vals, nz_ratio)
-    call data_struct%update_struct(ms, is, js, ks, vals)
+    call A%update_struct(ms, is, js, ks, vals)
+    call B%update_struct(ms, is, js, ks, vals)
 
 
     print*, nz_ratio
     time = omp_get_wtime()
-    call intensive_algorithm(data_struct, nx, ny, nz, num_mats)
+    call intensive_algorithm(A, B, C, nx, ny, nz, num_mats)
     print*, 'func time', omp_get_wtime() - time
 
     time = omp_get_wtime()
-    call intensive_algorithm_mat(data_struct, nx, ny, nz, num_mats)
+    call intensive_algorithm_mat(A, B, C, nx, ny, nz, num_mats)
     print*, 'func time', omp_get_wtime() - time
 
     time = omp_get_wtime()
-    call intensive_algorithm_neighbors(data_struct, nx, ny, nz, num_mats)
+    call intensive_algorithm_neighbors(A, C, nx, ny, nz, num_mats)
     print*, 'func time', omp_get_wtime() - time
 
-    call advection(nx, ny, nz, num_mats, ms, is, js, ks, vals, nz_ratio)
-    time = omp_get_wtime()
-    call data_struct%update_struct(ms, is, js, ks, vals)
-    print*, 'update time', omp_get_wtime() - time
 
-    time = omp_get_wtime()
-    call intensive_algorithm(data_struct, nx, ny, nz, num_mats)
-    print*, 'func time', omp_get_wtime() - time
 
 end program main
 
+!  ./exe 5 0.3
+!   0.29999999999999999     
+!  Result intensive_algorithm   12000000.000000000     
+!  func time   1.5073625491932034     
+!  Result intensive_algorithm_mat   12000000.000000000     
+!  func time   1.4958581356331706     
+!  Result intensive_algorithm_neighbors   80949295.000000000   
