@@ -14,7 +14,7 @@ program main
     ! TAL !
 
     class(sparse_struct_base_t), pointer :: A, B, C
-    integer :: nx=350, ny=350, nz=350, num_mats=16
+    integer :: nx=200, ny=200, nz=200, num_mats=8
     integer, dimension(:), allocatable :: ms, is, js, ks
     real(8), dimension(:), allocatable :: vals
     real(8) :: nz_ratio=0.3, time
@@ -47,7 +47,6 @@ program main
     call advection(nx, ny, nz, num_mats, ms, is, js, ks, vals, nz_ratio)
     call A%update_struct(ms, is, js, ks, vals)
     call B%update_struct(ms, is, js, ks, vals)
-    call C%update_struct(ms, is, js, ks, vals)
 
 
     print*, nz_ratio
@@ -55,15 +54,25 @@ program main
     call intensive_algorithm(A, B, C, nx, ny, nz, num_mats)
     print*, 'func time', omp_get_wtime() - time
 
-    ! time = omp_get_wtime()
-    ! call intensive_algorithm_mat(A, B, C, nx, ny, nz, num_mats)
-    ! print*, 'func time', omp_get_wtime() - time
+    ! print*, A%total_sum(), C%total_sum()
 
-    ! time = omp_get_wtime()
-    ! call intensive_algorithm_neighbors(A, C, nx, ny, nz, num_mats)
-    ! print*, 'func time', omp_get_wtime() - time
+    time = omp_get_wtime()
+    call intensive_algorithm_mat(A, B, C, nx, ny, nz, num_mats)
+    print*, 'func time', omp_get_wtime() - time
+
+    time = omp_get_wtime()
+    call intensive_algorithm_neighbors(A, C, nx, ny, nz, num_mats)
+    print*, 'func time', omp_get_wtime() - time
 
 
 
 end program main
 
+! ./exe 5 0.3
+! 0.29999999999999999     
+! Result intensive_algorithm   12000000.000000000     
+! func time  0.62171563971787691     
+! Result intensive_algorithm_mat   12000000.000000000     
+! func time  0.73784971516579390     
+! Result intensive_algorithm_neighbors   80949295.000000000     
+! func time   1.1633917605504394

@@ -8,6 +8,7 @@ module mat4d_module
             procedure :: get_item => get_item
             procedure :: add_item => add_item
             procedure :: update_struct => update_struct
+            procedure :: total_sum => total
     end type
     
     interface mat4d_t
@@ -23,6 +24,7 @@ module mat4d_module
 
         allocate(mat4d_constructor)
         allocate(mat4d_constructor%matrix(1:mats,0:nx,0:ny,0:nz))
+        mat4d_constructor%matrix(1:mats,0:nx,0:ny,0:nz) = 0d0
     end function
 
 
@@ -33,6 +35,27 @@ module mat4d_module
         real(8) :: get_item
 
         get_item = this%matrix(material_type, i, j, k)
+    end function
+
+
+    function total(this)
+        implicit none
+        class(mat4d_t), intent(inout) :: this
+        integer :: m, i, j, k
+        real(8) :: total
+        total = 0d0
+
+        ! do k=0, size(this%matrix, dim=4)-1
+        !     do j=0, size(this%matrix, dim=3)-1
+        !         do i=0, size(this%matrix, dim=2)-1
+        !             do m=1, size(this%matrix, dim=1)
+        !                 total = total + this%matrix(m,i,j,k)
+        !             end do
+        !         end do
+        !     end do
+        ! end do
+
+        total = sum(this%matrix)
     end function
 
 

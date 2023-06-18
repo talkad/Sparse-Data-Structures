@@ -122,11 +122,11 @@ module demo_algorithms_module
         real(8), dimension(:), allocatable:: vals
 
         total_size = nx*ny*nz*num_materials
-        allocate(ms(total_size))
-        allocate(is(total_size))
-        allocate(js(total_size))
-        allocate(ks(total_size))
-        allocate(vals(total_size))
+        allocate(ms(0:total_size-1))
+        allocate(is(0:total_size-1))
+        allocate(js(0:total_size-1))
+        allocate(ks(0:total_size-1))
+        allocate(vals(0:total_size-1))
 
         ms = 0d0
         is = 0d0
@@ -172,7 +172,6 @@ module demo_algorithms_module
 
 
     subroutine advection(nx, ny, nz, num_materials, ms, is, js, ks, vals, nz_ratio)
-        ! update 30% of the data
         integer, intent(in) :: nx,ny,nz,num_materials
         integer, dimension(:), allocatable, intent(inout) :: ms, is, js, ks
         real(8), dimension(:), allocatable, intent(inout) :: vals
