@@ -94,7 +94,7 @@ module mat_array_module
             debug = debug + 1
         end do
 
-        write(*,*) 'a', debug
+        ! write(*,*) 'a', debug
 
     end subroutine
 

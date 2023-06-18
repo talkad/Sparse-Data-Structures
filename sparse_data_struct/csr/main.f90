@@ -15,7 +15,7 @@ program main
     integer, dimension(:,:,:,:), allocatable :: idx_map
 
     class(sparse_struct_base_t), pointer :: data_struct
-    integer :: nx=350, ny=350, nz=350, num_mats=20
+    integer :: nx=350, ny=350, nz=350, num_mats=16
     integer, dimension(:), allocatable :: ms, is, js, ks
     real(8), dimension(:), allocatable :: vals
     real(8) :: nz_ratio=0.3, time
@@ -65,14 +65,14 @@ program main
     call intensive_algorithm_neighbors(data_struct, nx, ny, nz, num_mats)
     print*, 'func time', omp_get_wtime() - time
 
-    call advection(nx, ny, nz, num_mats, ms, is, js, ks, vals, nz_ratio)
-    time = omp_get_wtime()
-    call data_struct%update_struct(ms, is, js, ks, vals)
-    print*, 'update time', omp_get_wtime() - time
+    ! call advection(nx, ny, nz, num_mats, ms, is, js, ks, vals, nz_ratio)
+    ! time = omp_get_wtime()
+    ! call data_struct%update_struct(ms, is, js, ks, vals)
+    ! print*, 'update time', omp_get_wtime() - time
 
-    time = omp_get_wtime()
-    call intensive_algorithm(data_struct, nx, ny, nz, num_mats)
-    print*, 'func time', omp_get_wtime() - time
+    ! time = omp_get_wtime()
+    ! call intensive_algorithm(data_struct, nx, ny, nz, num_mats)
+    ! print*, 'func time', omp_get_wtime() - time
 
 
 end program main

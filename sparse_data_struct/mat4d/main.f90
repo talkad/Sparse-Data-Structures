@@ -60,15 +60,22 @@ program main
     call intensive_algorithm_neighbors(data_struct, nx, ny, nz, num_mats)
     print*, 'func time', omp_get_wtime() - time
 
-    call advection(nx, ny, nz, num_mats, ms, is, js, ks, vals, nz_ratio)
-    time = omp_get_wtime()
-    call data_struct%update_struct(ms, is, js, ks, vals)
-    print*, 'update time', omp_get_wtime() - time
+    ! call advection(nx, ny, nz, num_mats, ms, is, js, ks, vals, nz_ratio)
+    ! time = omp_get_wtime()
+    ! call data_struct%update_struct(ms, is, js, ks, vals)
+    ! print*, 'update time', omp_get_wtime() - time
 
-    time = omp_get_wtime()
-    call intensive_algorithm(data_struct, nx, ny, nz, num_mats)
-    print*, 'func time', omp_get_wtime() - time
+    ! time = omp_get_wtime()
+    ! call intensive_algorithm(data_struct, nx, ny, nz, num_mats)
+    ! print*, 'func time', omp_get_wtime() - time
 
 
 end program main
 
+! 0.29999999999999999     
+! Result intensive_algorithm   16078125.000000000     
+! func time  0.72660566959530115     
+! Result intensive_algorithm   16078125.000000000     
+! func time  0.73615803755819798     
+! Result intensive_algorithm_neighbors   110201586.25000000     
+! func time   3.9886593911796808
