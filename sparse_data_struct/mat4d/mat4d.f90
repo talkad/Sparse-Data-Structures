@@ -45,16 +45,6 @@ module mat4d_module
         real(8) :: total
         total = 0d0
 
-        ! do k=0, size(this%matrix, dim=4)-1
-        !     do j=0, size(this%matrix, dim=3)-1
-        !         do i=0, size(this%matrix, dim=2)-1
-        !             do m=1, size(this%matrix, dim=1)
-        !                 total = total + this%matrix(m,i,j,k)
-        !             end do
-        !         end do
-        !     end do
-        ! end do
-
         total = sum(this%matrix)
     end function
 

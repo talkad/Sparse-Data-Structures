@@ -43,7 +43,6 @@ program main
     B => mat_array_constructor(num_mats, nx, ny, nz)
     C => mat_array_constructor(num_mats, nx, ny, nz)
 
-
     ! init data
     call advection(nx, ny, nz, num_mats, ms, is, js, ks, vals, nz_ratio)
     call A%update_struct(ms, is, js, ks, vals)
@@ -54,7 +53,7 @@ program main
     time = omp_get_wtime()
     call intensive_algorithm(A, B, C, nx, ny, nz, num_mats)
     print*, 'func time', omp_get_wtime() - time
-
+    
     time = omp_get_wtime()
     call intensive_algorithm_mat(A, B, C, nx, ny, nz, num_mats)
     print*, 'func time', omp_get_wtime() - time

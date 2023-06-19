@@ -23,10 +23,10 @@ module demo_algorithms_module
         allocate(ks(0:total_size-1))
         allocate(vals(0:total_size-1))
 
-        ms = 0d0
-        is = 0d0
-        js = 0d0
-        ks = 0d0
+        ms = -1
+        is = -1
+        js = -1
+        ks = -1
         vals = 0d0
 
         ! order k->j->i->m
@@ -75,10 +75,10 @@ module demo_algorithms_module
         allocate(ks(0:total_size-1))
         allocate(vals(0:total_size-1))
 
-        ms = 0d0
-        is = 0d0
-        js = 0d0
-        ks = 0d0
+        ms = -1
+        is = -1
+        js = -1
+        ks = -1
         vals = 0d0
 
         ! order m->k->j->i
@@ -128,10 +128,10 @@ module demo_algorithms_module
         allocate(ks(0:total_size-1))
         allocate(vals(0:total_size-1))
 
-        ms = 0d0
-        is = 0d0
-        js = 0d0
-        ks = 0d0
+        ms = -1
+        is = -1
+        js = -1
+        ks = -1
         vals = 0d0
 
         ! order m->k->j->i
@@ -183,10 +183,10 @@ module demo_algorithms_module
         
         ! init
         idx = 0
-        ms = 0
-        js = 0
-        is = 0
-        ks = 0
+        ms = -1
+        is = -1
+        js = -1
+        ks = -1
         vals(:) = 1d0
 
         do k=0, int(nz*nz_ratio)

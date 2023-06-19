@@ -67,13 +67,10 @@ module csr_module
         integer :: m, i, j, k, materials, nx, ny, nz, insertion_idx, idx, num_vals
         integer :: num_padding, new_cells, num_pads, prev_size, new_size
         real(8), dimension(:), allocatable :: temp
-        integer :: current_idx, debug1, debug2, debug3
+        integer :: current_idx
         logical :: logic_debug
         idx = 0
 
-        debug1 = 0
-        debug2 = 0
-        debug3 = 0
         logic_debug = .False.
         num_padding = size(this%values) - this%padding_idx
         new_cells = this%count_new_cells(ms,is,js,ks)
@@ -98,8 +95,6 @@ module csr_module
         ny = size(this%idx_map, dim=3)-1
         nz = size(this%idx_map, dim=4)-1
         num_vals = size(is)-1
-
-        ! idx =  num_vals  ! 11999999
         
         do i=num_vals, 0, -1
             if (is(i)/=-1) then
@@ -108,12 +103,7 @@ module csr_module
             end if
         end do
 
-        ! write(*,*) '-----------------', idx
         insertion_idx = size(this%values)-1
-
-        ! debug1 = 0
-        ! debug2 = 0
-        ! debug3 = 0
         
         do k=nz, 0, -1
             do j=ny, 0, -1
@@ -123,27 +113,22 @@ module csr_module
                         current_idx = this%idx_map(m,i,j,k)
 
                         if (ms(idx)==m .and. is(idx)==i .and. js(idx)==j .and. ks(idx)==k) then
-                            debug1 = debug1 + 1
                             this%values(insertion_idx) = vals(idx)
                             this%idx_map(m,i,j,k) = insertion_idx
                             insertion_idx = insertion_idx - 1
                             idx = idx - 1
                         else if (current_idx > -1) then
-                            debug2 = debug2 + 1
                             this%values(insertion_idx) = this%values(current_idx)
                             this%values(current_idx) = 0
                             this%idx_map(m,i,j,k) = insertion_idx
                             insertion_idx = insertion_idx - 1
-                        else 
-                            debug3 = debug3 + 1
                         end if 
 
                     end do
                 end do
             end do
         end do 
-        ! write(*,*) 'aaaaa', debug1, debug2, debug3
-        ! align values to left
+
         idx = 0
 
         do k=0, nz
@@ -166,8 +151,6 @@ module csr_module
         end do
 
         this%padding_idx = idx
-        ! write(*,*) 'after alignment', sum(this%values)
-        ! write(*,*), 'value distruction', logic_debug
 
     end subroutine
 

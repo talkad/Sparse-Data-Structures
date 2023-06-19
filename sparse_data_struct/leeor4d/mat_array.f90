@@ -91,22 +91,18 @@ module mat_array_module
         real(8), dimension(:), allocatable, intent(in) :: vals
         integer :: idx
         real(8) :: curr_val
-
-        ! integer :: debug
-        ! debug  = 0
         
         do idx=0, size(is)-1
             curr_val = vals(idx)
+
+            if (is(idx) == -1) EXIT
 
             if (.not. allocated(this%mat(is(idx), js(idx), ks(idx))%materials)) then
                 allocate(this%mat(is(idx), js(idx), ks(idx))%materials(1:this%num_mats))
             end if
 
             this%mat(is(idx), js(idx), ks(idx))%materials(ms(idx)) = vals(idx)
-            ! debug = debug + 1
         end do
-
-        ! write(*,*) 'a', debug
 
     end subroutine
 
