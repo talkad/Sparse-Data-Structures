@@ -50,7 +50,7 @@ module demo_algorithms_module
                 end do
             end do
         end do
-
+        
         call C%update_struct(ms,is,js,ks,vals)
         deallocate(ms,is,js,ks,vals)
         print*, 'Result intensive_algorithm', temp_sum

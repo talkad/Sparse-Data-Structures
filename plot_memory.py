@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 
-# ratios = [0.01, 0.1, 0.3, 0.5, 1]
+
+# ratios = [0.01, 0.1, 0.3, 0.5, 0.8, 1]
 # num_data = 50
 # nx, ny = 10**4, 10**4
 # nz = 4 # 16
@@ -34,33 +35,37 @@ import matplotlib.pyplot as plt
 # plt.show()
 
 
-ratios = [0.01, 0.1, 0.3, 0.5, 1]
-num_materials = 20
-nx, ny, nz = 350, 350, 350
 
 
 
-mat_ids_mem = nx*ny*nz*num_materials*4
-naive_mem = lambda _: nx*ny*nz* num_materials * 8
-csr_mem = lambda ratio: mat_ids_mem + nx*ny*nz*ratio*num_materials*8
-mat_array_mem = lambda ratio: nx*ny*nz*8 + nx*ny*nz*num_materials*ratio*8
-linked_mem = lambda ratio: nx*ny*nz*8 + nx*ny*nz*num_materials*ratio*25
+
+# ratios = [0.01, 0.1, 0.3, 0.5, 1]
+# num_materials = 20
+# nx, ny, nz = 350, 350, 350
 
 
-plt.title('Memory')
-plt.plot(ratios,[naive_mem(ratio) for ratio in ratios], label='Mat3D')
-plt.plot(ratios,[linked_mem(ratio) for ratio in ratios], label='Mat of List')
-plt.plot(ratios,[mat_array_mem(ratio) for ratio in ratios], label='Mat of arrays')
-plt.plot(ratios,[csr_mem(ratio) for ratio in ratios], label='CSR')
+
+# mat_ids_mem = nx*ny*nz*num_materials*4
+# naive_mem = lambda _: nx*ny*nz* num_materials * 8
+# csr_mem = lambda ratio: mat_ids_mem + nx*ny*nz*ratio*num_materials*8
+# mat_array_mem = lambda ratio: nx*ny*nz*8 + nx*ny*nz*num_materials*ratio*8
+# linked_mem = lambda ratio: nx*ny*nz*8 + nx*ny*nz*num_materials*ratio*25
 
 
-# total
+# plt.title('Memory')
+# plt.plot(ratios,[naive_mem(ratio) for ratio in ratios], label='Mat3D')
+# plt.plot(ratios,[linked_mem(ratio) for ratio in ratios], label='Mat of List')
+# plt.plot(ratios,[mat_array_mem(ratio) for ratio in ratios], label='Mat of arrays')
+# plt.plot(ratios,[csr_mem(ratio) for ratio in ratios], label='CSR')
 
-# plt.plot([0.01, 1],[32*10**8*num_data, 32*10**8*num_data], label='naive mat3d')
-# # csr3
-# plt.plot(ratios,[csr_mem(ratio)*num_data+32*10**8 for ratio in ratios], label='2 materials')
 
-plt.legend()
-plt.ylabel('memory (bytes)')
-plt.xlabel('materials precentage')
-plt.show()
+# # total
+
+# # plt.plot([0.01, 1],[32*10**8*num_data, 32*10**8*num_data], label='naive mat3d')
+# # # csr3
+# # plt.plot(ratios,[csr_mem(ratio)*num_data+32*10**8 for ratio in ratios], label='2 materials')
+
+# plt.legend()
+# plt.ylabel('memory (bytes)')
+# plt.xlabel('materials precentage')
+# plt.show()

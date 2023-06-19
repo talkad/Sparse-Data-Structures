@@ -7,27 +7,22 @@ from tqdm import tqdm
 
 data = {}
 
-result_dir = '/home/talkad/Desktop/data_structures/results'
-data_structures = ['mat4d', 'linked_list', 'csr', 'csr_block_8', 'csr_block_16', 'csr_block_32', 'csr_block_64' ] # ['mat3d', 'csr3', 'csr_block_4', 'csr_block_8', 'csr_block_16', 'csr_block_64', 'csr_block_4_inline', 'csr_block_8_inline', 'csr_block_16_inline', 'csr_block_64_inline']
+result_dir = '/home/talkad_k/Desktop/Sparse-Data-Structures/results'
+data_structures = ['backus', 'mat4d', 'leeor4d', 'csr']
 
-
-ratios = [0.01,0.1,0.3,0.5,1]
+ratios = [0.01,0.1,0.3,0.5,0.8,1]
 num_mats = [2,4,8]
-algorithms = ['kjim', 'mkji', 'stencil', 'update']  # ['intensive', 'intensive_mats', 'intensive_neighbors'] 
+algorithms = ['kjim', 'mkji', 'stencil']
 
-
-for algo, idx in tqdm(zip(algorithms, [-1,1,3,4])):
+for algo, idx in tqdm(zip(algorithms, [0,2,4])):
     for struct in data_structures:
         for mats in num_mats:
 
             with open(f'{result_dir}/{struct}/{mats}.txt') as f:
                 log = f.readlines()
-
-                for line, ratio in zip([3,13,23,33,43],ratios):
+                for line, ratio in zip([2,9,16,23,30,37],ratios):
                     data[f'{struct}_{mats}_{ratio}'] = float(log[line+idx].split()[-1])
 
-    print(data)
-    
     with open(f'{algo}.json', 'w') as f:
         json.dump(data, f, indent=2, separators=(',', ': '))
 

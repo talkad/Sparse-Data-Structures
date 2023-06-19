@@ -15,7 +15,7 @@ program main
     ! TAL !
 
     class(sparse_struct_base_t), pointer :: A, B, C
-    integer :: nx=200, ny=200, nz=200, num_mats=8
+    integer :: nx=220, ny=220, nz=220, num_mats=8
     integer, dimension(:), allocatable :: ms, is, js, ks
     real(8), dimension(:), allocatable :: vals
     real(8) :: nz_ratio=0.3, time
