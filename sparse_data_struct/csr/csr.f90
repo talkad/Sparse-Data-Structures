@@ -8,15 +8,17 @@ module csr_module
         integer :: padding_size
         integer :: padding_idx
 
+        integer :: nx, ny, nz, nm
+
     contains
 
         procedure :: get_item => get_item
         procedure :: add_item => add_item
         procedure :: update_struct => update_struct
-
         procedure, private, nopass :: append_real
         procedure, private :: count_new_cells
         ! procedure, private :: align_value_left
+        procedure :: total_sum => total
     end type
 
     interface csr_t
@@ -36,6 +38,26 @@ module csr_module
     end subroutine
 
 
+    function total(this)
+        implicit none
+        class(csr_t), intent(inout) :: this
+        integer :: m, i, j, k
+        real(8) :: total
+        total = 0d0
+
+        do k=0, this%nz
+            do j=0, this%ny
+                do i=0, this%nx
+                    do m=1, this%nm
+                        total = total + this%get_item(m,j,i,k)
+                    end do
+                end do
+            end do
+        end do
+
+    end function
+
+
     ! Assume the order of the new values is j i m
     subroutine update_struct(this, ms, is, js, ks, vals)
         implicit none
@@ -47,11 +69,7 @@ module csr_module
         real(8), dimension(:), allocatable :: temp
         integer :: current_idx, debug1, debug2, debug3
         logical :: logic_debug
-        integer, dimension(0:3) :: idx_ptr = [0, 0, 0, 0], cont_idx = [0, 0, 0, 0]
-        real(8) :: val
-
         idx = 0
-        ! write(*,*) 'aaaaaaaaaaa', idx, ms(idx),is(idx),js(idx),ks(idx)
 
         debug1 = 0
         debug2 = 0
@@ -60,8 +78,6 @@ module csr_module
         num_padding = size(this%values) - this%padding_idx
         new_cells = this%count_new_cells(ms,is,js,ks)
 
-        ! write(*,*), 'initial stats', new_cells, num_padding, sum(vals)
-
         if (new_cells > num_padding) then
             ! rescalse the size of the values array 
             num_pads = (new_cells - num_padding) / this%padding_size + 1 
@@ -69,7 +85,7 @@ module csr_module
             prev_size = size(this%values, dim=1)
 
             new_size = prev_size + num_pads * this%padding_size - 1
-            ! write(*,*), 'reallocation', prev_size, '->', new_size
+            ! write(*,*) 'reallocation', prev_size, '->', new_size
 
             allocate(temp(0:new_size))                          ! enlarge array size by factor of 2
             temp(0:new_size) = 0d0
@@ -83,14 +99,22 @@ module csr_module
         nz = size(this%idx_map, dim=4)-1
         num_vals = size(is)-1
 
-        idx = num_vals
+        ! idx =  num_vals  ! 11999999
+        
+        do i=num_vals, 0, -1
+            if (is(i)/=-1) then
+                idx = i
+                exit
+            end if
+        end do
+
+        ! write(*,*) '-----------------', idx
         insertion_idx = size(this%values)-1
 
-        ! write(*,*), 'before insertion', sum(this%values)
-        debug1 = 0
-        debug2 = 0
-        debug3 = 0
-
+        ! debug1 = 0
+        ! debug2 = 0
+        ! debug3 = 0
+        
         do k=nz, 0, -1
             do j=ny, 0, -1
                 do i=nx, 0, -1
@@ -98,27 +122,27 @@ module csr_module
 
                         current_idx = this%idx_map(m,i,j,k)
 
-                        ! if (this%values(insertion_idx) /= 0) then 
-                        !     call this%align_value_left()
-                        ! end if
-
                         if (ms(idx)==m .and. is(idx)==i .and. js(idx)==j .and. ks(idx)==k) then
+                            debug1 = debug1 + 1
                             this%values(insertion_idx) = vals(idx)
                             this%idx_map(m,i,j,k) = insertion_idx
                             insertion_idx = insertion_idx - 1
                             idx = idx - 1
                         else if (current_idx > -1) then
+                            debug2 = debug2 + 1
                             this%values(insertion_idx) = this%values(current_idx)
                             this%values(current_idx) = 0
                             this%idx_map(m,i,j,k) = insertion_idx
                             insertion_idx = insertion_idx - 1
+                        else 
+                            debug3 = debug3 + 1
                         end if 
 
                     end do
                 end do
             end do
         end do 
-
+        ! write(*,*) 'aaaaa', debug1, debug2, debug3
         ! align values to left
         idx = 0
 
@@ -142,7 +166,7 @@ module csr_module
         end do
 
         this%padding_idx = idx
-        ! write(*,*), 'after alignment', sum(this%values)
+        ! write(*,*) 'after alignment', sum(this%values)
         ! write(*,*), 'value distruction', logic_debug
 
     end subroutine
@@ -193,6 +217,11 @@ module csr_module
         ! sparse_constructor%idx_map(:,:,:,:) = -1
         sparse_constructor%padding_size = space_size*mix_ratio
         sparse_constructor%padding_idx = 0
+
+        sparse_constructor%nx = size(indxs, dim=2)-1
+        sparse_constructor%ny = size(indxs, dim=3)-1
+        sparse_constructor%nz = size(indxs, dim=4)-1
+        sparse_constructor%nm = size(indxs, dim=1)
     end function
 
 

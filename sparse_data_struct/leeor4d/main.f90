@@ -68,9 +68,10 @@ program main
 end program main
 
 !  ./exe 5 0.3
-!   0.29999999999999999     
-!  Result intensive_algorithm   12000000.000000000     
-!  func time   1.5073625491932034     
-!  Result intensive_algorithm_mat   12000000.000000000     
-!  func time   1.4958581356331706     
-!  Result intensive_algorithm_neighbors   80949295.000000000   
+! 0.29999999999999999     
+! Result intensive_algorithm   12000000.000000000     
+! func time   1.5179173862561584     
+! Result intensive_algorithm_mat   12000000.000000000     
+! func time   1.7292544702067971     
+! Result intensive_algorithm_neighbors   80949295.000000000     
+! func time   1.7125943256542087 
