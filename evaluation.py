@@ -6,7 +6,7 @@ from multiprocessing import Process, Manager
 
 save_dir = 'results'
 local_dir = '/home/talkad_k/Desktop/Sparse-Data-Structures'
-base_dir = '/home/talkad_k/Desktop/Sparse-Data-Structures/sparse_data_struct'
+base_dir = '/home/talkad_k/Desktop/Sparse-Data-Structures/sparse_data_struct_inline'
 
 
 class Execute:
@@ -15,7 +15,7 @@ class Execute:
         self.optimazation = 2
         self.num_materials = [2,4,8]
         self.nz_ratios = [0.01, 0.1, 0.3, 0.5, 0.8, 1]
-        self.structs =   ['backus', 'mat4d', 'leeor4d', 'csr']
+        self.structs =  ['backus', 'leeor4d'] # ['backus', 'mat4d', 'leeor4d', 'csr']
 
 
     def execute_params(self, struct):
