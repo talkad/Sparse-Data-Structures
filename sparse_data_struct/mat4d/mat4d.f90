@@ -28,9 +28,9 @@ module mat4d_module
     end function
 
 
-    function get_item(this, material_type, i, j, k)
+    pure function get_item(this, material_type, i, j, k)
         implicit none
-        class(mat4d_t), intent(inout) :: this
+        class(mat4d_t), intent(in) :: this
         integer, intent(in) :: material_type, i, j, k
         real(8) :: get_item
 
@@ -41,9 +41,7 @@ module mat4d_module
     function total(this)
         implicit none
         class(mat4d_t), intent(inout) :: this
-        integer :: m, i, j, k
         real(8) :: total
-        total = 0d0
 
         total = sum(this%matrix)
     end function

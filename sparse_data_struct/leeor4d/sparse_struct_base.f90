@@ -11,9 +11,9 @@ module sparse_struct_base_module
 
     abstract interface
 
-        function get(this, material_type, i, j, k)
+        pure function get(this, material_type, i, j, k)
             import sparse_struct_base_t
-            class(sparse_struct_base_t), intent(inout) :: this
+            class(sparse_struct_base_t), intent(in) :: this
             integer, intent(in) :: i, j, k, material_type
             real(8) :: get
         end function

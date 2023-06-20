@@ -34,7 +34,7 @@ module csr_module
         integer, intent(in) :: i, j, k, material_type
         real(8) :: val
 
-        ! irrelevant
+        this%values(this%idx_map(material_type, i, j, k)) = val
     end subroutine
 
 
@@ -102,7 +102,7 @@ module csr_module
                 exit
             end if
         end do
-
+        
         insertion_idx = size(this%values)-1
         
         do k=nz, 0, -1
@@ -169,9 +169,9 @@ module csr_module
     end function
 
 
-    function get_item(this, material_type, i, j, k)
+    pure function get_item(this, material_type, i, j, k)
         implicit none
-        class(csr_t), intent(inout) :: this
+        class(csr_t), intent(in) :: this
         integer, intent(in) :: i, j, k, material_type
         real(8) :: get_item
         integer :: idx

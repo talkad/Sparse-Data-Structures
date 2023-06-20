@@ -10,24 +10,11 @@ module demo_algorithms_module
         class(sparse_struct_base_t), pointer, intent(in) :: A, B
         class(sparse_struct_base_t), pointer, intent(out) :: C
         integer, intent(in) :: nx,ny,nz,num_materials
-        integer :: i, j, k, m, total_size, idx=0
+        integer :: i, j, k, m, total_size
 
         real(8) :: temp_sum = 0, res
-        integer, dimension(:), allocatable :: ms, is, js, ks
-        real(8), dimension(:), allocatable :: vals
 
         total_size = nx*ny*nz*num_materials
-        allocate(ms(0:total_size-1))
-        allocate(is(0:total_size-1))
-        allocate(js(0:total_size-1))
-        allocate(ks(0:total_size-1))
-        allocate(vals(0:total_size-1))
-
-        ms = -1
-        is = -1
-        js = -1
-        ks = -1
-        vals = 0d0
 
         ! order k->j->i->m
         do k = 0, nz
@@ -36,23 +23,14 @@ module demo_algorithms_module
                     do m = 1, num_materials
                             temp_sum = temp_sum + A%get_item(m, i, j, k)
 
-                            res = A%get_item(m, i, j, k) + B%get_item(m, i, j, k)
-                            if (res > 0) then
-                                ms(idx) = m
-                                is(idx) = i
-                                js(idx) = j
-                                ks(idx) = k
-                                vals(idx) = res
-
-                                idx = idx + 1
-                            end if
+                            res = A%get_item(m, i, j, k)*A%get_item(m, i, j, k) + 0.5*B%get_item(m, i, j, k)
+                            call C%add_item(m,i,j,k,res)
+                            
                     end do
                 end do
             end do
         end do
-        
-        call C%update_struct(ms,is,js,ks,vals)
-        deallocate(ms,is,js,ks,vals)
+
         print*, 'Result intensive_algorithm', temp_sum
     end subroutine
 
@@ -62,50 +40,27 @@ module demo_algorithms_module
         class(sparse_struct_base_t), pointer, intent(in) :: A, B
         class(sparse_struct_base_t), pointer, intent(inout) :: C
         integer, intent(in) :: nx,ny,nz,num_materials
-        integer :: i, j, k, m, total_size, idx=0
+        integer :: i, j, k, m, total_size
 
         real(8) :: temp_sum = 0, res
-        integer, dimension(:), allocatable :: ms, is, js, ks
-        real(8), dimension(:), allocatable :: vals
-
-        total_size = nx*ny*nz*num_materials
-        allocate(ms(0:total_size-1))
-        allocate(is(0:total_size-1))
-        allocate(js(0:total_size-1))
-        allocate(ks(0:total_size-1))
-        allocate(vals(0:total_size-1))
-
-        ms = -1
-        is = -1
-        js = -1
-        ks = -1
-        vals = 0d0
 
         ! order m->k->j->i
         do m = 1, num_materials
             do k = 0, nz
                 do j = 0, ny
                     do i = 0, nx
-                            temp_sum = temp_sum + A%get_item(m, i, j, k)
 
-                            res = A%get_item(m, i, j, k) + B%get_item(m, i, j, k)
-                            if (res > 0) then
-                                ms(idx) = m
-                                is(idx) = i
-                                js(idx) = j
-                                ks(idx) = k
-                                vals(idx) = res
+                        ! temp_sum = temp_sum + A%get_item(m, i, j, k)
 
-                                idx = idx + 1
-                            end if
+                        res = A%get_item(m, i, j, k)*A%get_item(m, i, j, k)*1.2 + 0.5*B%get_item(m, i, j, k)
+                        call C%add_item(m,i,j,k,res)
+
                     end do
                 end do
             end do
         end do
 
-        call C%update_struct(ms,is,js,ks,vals)
-        deallocate(ms,is,js,ks,vals)
-        print*, 'Result intensive_algorithm_mat', temp_sum
+        ! print*, 'Result intensive_algorithm_mat', temp_sum
     end subroutine
 
 
@@ -114,25 +69,11 @@ module demo_algorithms_module
         class(sparse_struct_base_t), pointer, intent(inout) :: A
         class(sparse_struct_base_t), pointer, intent(inout) :: C
         integer, intent(in) :: nx,ny,nz,num_materials
-        integer :: i, j, k, m, total_size, idx=0
+        integer :: i, j, k, m
         real(8) :: curr, up, down, left, right, bottom, top
 
         real(8) :: temp_sum = 0, res
-        integer, dimension(:), allocatable:: ms, is, js, ks
-        real(8), dimension(:), allocatable:: vals
 
-        total_size = nx*ny*nz*num_materials
-        allocate(ms(0:total_size-1))
-        allocate(is(0:total_size-1))
-        allocate(js(0:total_size-1))
-        allocate(ks(0:total_size-1))
-        allocate(vals(0:total_size-1))
-
-        ms = -1
-        is = -1
-        js = -1
-        ks = -1
-        vals = 0d0
 
         ! order m->k->j->i
         do k=1, nz-1
@@ -150,23 +91,13 @@ module demo_algorithms_module
                             res = curr + up + down + left + right + bottom + top
 
                             temp_sum = temp_sum + res
-                            
-                            if (res > 0) then
-                                ms(idx) = m
-                                is(idx) = i
-                                js(idx) = j
-                                ks(idx) = k
-                                vals(idx) = res
+                            call C%add_item(m,i,j,k,res)
 
-                                idx = idx + 1
-                            end if
                     end do
                 end do
             end do
         end do
 
-        call  C%update_struct(ms,is,js,ks,vals)
-        deallocate(ms,is,js,ks,vals)
         print*, 'Result intensive_algorithm_neighbors', temp_sum
     end subroutine
 
@@ -196,19 +127,12 @@ module demo_algorithms_module
 
                         if (idx > new_size-1) return
 
-                        ! if (rand(0) <= nz_ratio) then
                         ms(idx) = m
                         is(idx) = i
                         js(idx) = j
                         ks(idx) = k
-                        ! if(idx==0) then
-                        !     write(*,*) 'aaaaaaaaaaa', ms(idx),is(idx),js(idx),ks(idx), idx
-                        ! end if
 
-                        idx = idx + 1
-
-                            
-                        ! end if 
+                        idx = idx + 1                     
 
                     end do
                 end do

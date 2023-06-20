@@ -57,6 +57,7 @@ program main
     call advection(nx, ny, nz, num_mats, ms, is, js, ks, vals, nz_ratio)
     call A%update_struct(ms, is, js, ks, vals)
     call B%update_struct(ms, is, js, ks, vals)
+    call c%update_struct(ms, is, js, ks, vals)
 
 
     print*, nz_ratio

@@ -50,9 +50,9 @@ module mat_array_module
     end subroutine
 
 
-    function get_item(this, material_type, i, j, k)
+    pure function get_item(this, material_type, i, j, k)
         implicit none
-        class(mat_array_t), intent(inout) :: this
+        class(mat_array_t), intent(in) :: this
         integer, intent(in) :: i, j, k, material_type
         real(8) :: get_item
 
