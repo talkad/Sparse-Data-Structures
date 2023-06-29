@@ -14,8 +14,8 @@ class Execute:
         # data struct parameters
         self.optimazation = 2
         self.num_materials = [2,4,8]
-        self.nz_ratios = [0.01, 0.1, 0.3, 0.5, 0.8, 1]
-        self.structs =  ['backus', 'leeor4d'] # ['backus', 'mat4d', 'leeor4d', 'csr']
+        self.nz_ratios = [0.01, 0.1, 0.3, 0.4, 0.5, 0.6]
+        self.structs =  ['csr_update_pure']   #['backus', 'leeor4d', 'csr',  'csr_pure']     # ['backus', 'mat4d', 'leeor4d', 'csr']
 
 
     def execute_params(self, struct):

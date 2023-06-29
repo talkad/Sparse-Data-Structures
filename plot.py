@@ -8,9 +8,9 @@ from tqdm import tqdm
 data = {}
 
 result_dir = '/home/talkad_k/Desktop/Sparse-Data-Structures/results'
-data_structures = ['backus', 'leeor4d', 'csr']
+data_structures = ['backus', 'leeor4d', 'csr',  'csr_pure', 'csr_update_pure']
 
-ratios = [0.01,0.1,0.3,0.5,0.8,1]
+ratios = [0.01,0.1,0.3,0.4,0.5,0.6]
 num_mats = [2,4,8]
 algorithms = ['kjim', 'mkji', 'stencil']
 
